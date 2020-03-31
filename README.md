@@ -2,6 +2,10 @@
 
 ### `covid19 data stats tool`
 line graph fished, geo based front-end and data analysis/prediction to be done
+add 2 sub-graph(dealth, recover)
+
+### `Python web crawler to detect Whether Wholefood/Instacart window is available`
+beautiful-soup?
 
 ### `Data structure, dynamic programming visualizing algorithms`
 step1, build c, c++, java complier first
@@ -11,3 +15,7 @@ step1, build c, c++, java complier first
 
 ### `Solving algo question in 7 languages`
 (Java, c, c++, py, js, swift, go)
+
+### `Incoming phone call, emtion detector`
+There exists ML Libaray in swift, so cool!
+
