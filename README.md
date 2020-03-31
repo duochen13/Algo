@@ -2,7 +2,7 @@
 
 ### `covid19 data stats tool`
 line graph fished, geo based front-end and data analysis/prediction to be done
-add 2 sub-graph(dealth, recover)
+add 2 sub-graph(dealth, recover), daily growth, dynamic growing animation
 
 ### `Python web crawler to detect Whether Wholefood/Instacart window is available`
 beautiful-soup?
