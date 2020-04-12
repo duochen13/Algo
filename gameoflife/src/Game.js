@@ -1,6 +1,8 @@
 import React from 'react';
 import './Game.css';
 
+// ref: https://www.freecodecamp.org/news/create-gameoflife-with-react-in-one-hour-8e686a410174/
+
 const CELL_SIZE = 20;
 const WIDTH = 800;
 const HEIGHT = 600;
@@ -30,7 +32,19 @@ class Game extends React.Component {
 
 
     state = {
-        cells: []
+        cells: [],
+        interval: 100,
+        isRunning: false,
+    }
+
+    runGame() {
+        this.setState({ isRunning: true});
+    }
+    stopGame() {
+        this.setState({ isRunning: false});
+    }
+    handleIntervalChange = (event) => {
+        this.setState({ interval: event.target.value });
     }
 
     makeEmptyBoard() {
@@ -80,7 +94,7 @@ class Game extends React.Component {
         })
     }
     render() {
-        const { cells } = this.state;
+        const { cells, isRunning } = this.state;
         return (
             <div>        
                 <div className="Board" style={{ width: WIDTH, height: HEIGHT, backgroundSize: `${CELL_SIZE}px ${CELL_SIZE}px` }}
@@ -89,7 +103,16 @@ class Game extends React.Component {
                      {cells.map(cell => (
                         <Cell x={cell.x} y={cell.y} key={`${cell.x},${cell.y}`}/>
                     ))}
-                </div>      
+                </div>    
+                <div className="controls">
+                    Update every <input value={this.state.interval} onChange={this.handleIntervalChange} /> msec
+                    {isRunning ?
+                        <button className="button" onClick={this.stopGame}>Stop</button> :
+                        <button className="button" onClick={this.runGame}>Run</button>
+                    }
+                    <button className="button" onClick={this.handleRandom}>Random</button>
+                    <button className="button" onClick={this.handleClear}>Clear</button>
+                </div>  
             </div>    
             )
     }
