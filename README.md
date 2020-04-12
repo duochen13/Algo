@@ -1,8 +1,9 @@
-## I will post some interesting projects idea here, in case I forgot :)
-
 ### `covid19 data stats tool`
 line graph fished, geo based front-end and data analysis/prediction to be done
 add 2 sub-graph(dealth, recover), daily growth, dynamic growing animation
+
+### `Game of Life`
+A game simulator
 
 ### `Python web crawler to detect Whether Wholefood/Instacart window is available`
 beautiful-soup?
