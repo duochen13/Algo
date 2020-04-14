@@ -5,6 +5,9 @@ add 2 sub-graph(dealth, recover), daily growth, dynamic growing animation
 ### `Game of Life`
 A game simulator
 
+### `Attendence Checker`
+Take a picture and see if someone attends the class
+
 ### `Python web crawler to detect Whether Wholefood/Instacart window is available`
 beautiful-soup?
 
