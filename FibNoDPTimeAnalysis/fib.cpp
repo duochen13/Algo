@@ -17,5 +17,5 @@ int main(int argc, char *argv[]) {
 	fib(N);
 	clock_t end = clock();	
 
-	cout << "c++: " << 1000 * (double)(end - start)/CLOCKS_PER_SEC << "ms" << endl;
+	cout << "c++ " << 1000 * (double)(end - start)/CLOCKS_PER_SEC << endl;
 }

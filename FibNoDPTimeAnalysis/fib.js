@@ -15,5 +15,5 @@ let start = performance.now()
 fib(N)
 let end = performance.now()
 
-console.log("js: ", end - start, "ms") //ms
+console.log("js ", end - start) //ms
 

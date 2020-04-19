@@ -12,4 +12,4 @@ start = time.time()
 fib(n)
 end = time.time()
 
-print("py: ", (end-start) * 1000, "ms")
+print("py ", (end-start) * 1000)

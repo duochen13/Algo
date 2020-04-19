@@ -21,5 +21,5 @@ func main() {
 	start := time.Now()
 	fib(arg)
 	diff := time.Since(start)
-	fmt.Println("Go: ", diff)
+	fmt.Println("Go ", diff)
 }

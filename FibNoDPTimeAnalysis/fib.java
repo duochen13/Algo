@@ -6,11 +6,12 @@ public class Fib {
 	}
 	public static void main(String[] args) {
 		int N = Integer.parseInt(args[0]);
-		long startTime = System.currentTimeMillis();
+		long startTime, endTime, elapsedTime;
+		startTime = System.nanoTime();
 		fib(N);
-		long stopTime = System.currentTimeMillis();
-	    long elapsedTime = stopTime - startTime;
-	    System.out.println("java: " + elapsedTime + "ms"); // ms
+		endTime = System.nanoTime()
+	    elapsedTime = (endTime - startTime);
+	    System.out.println("java " + elapsedTime); // ms
 	}
 }
 
