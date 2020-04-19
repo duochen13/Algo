@@ -5,4 +5,5 @@ import cv2
 
 img = cv2.imread('test.png', 0)
 cv2.imshow('window name', img)
-cv2.waitKey(0)
+
+
