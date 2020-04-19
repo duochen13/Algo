@@ -3,7 +3,7 @@
 ![GitHub Logo](./FibNoDPTimeAnalysis/withpy.png)
 
 
-![GitHub Logo](./FibNoDPTimeAnalysis/without.png)
+![GitHua Logo](./FibNoDPTimeAnalysis/without.png)
 
 
 ### `./run.sh > result.txt`
