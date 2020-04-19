@@ -1,3 +1,4 @@
+import sys
 import time
 
 def fib(n):
@@ -5,10 +6,10 @@ def fib(n):
 		return 1
 	return fib(n - 1) + fib(n - 2)
 
-n = 35
+n = int(sys.argv[1])
 
 start = time.time()
 fib(n)
 end = time.time()
 
-print(end-start)
+print("py: ", (end-start) * 1000, "ms")

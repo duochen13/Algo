@@ -5,11 +5,12 @@ public class Fib {
 		return fib(n - 1) + fib(n - 2);
 	}
 	public static void main(String[] args) {
+		int N = Integer.parseInt(args[0]);
 		long startTime = System.currentTimeMillis();
-		int res = fib(35);
+		fib(N);
 		long stopTime = System.currentTimeMillis();
 	    long elapsedTime = stopTime - startTime;
-	    System.out.println(elapsedTime); // ms
+	    System.out.println("java: " + elapsedTime + "ms"); // ms
 	}
 }
 

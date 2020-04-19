@@ -2,7 +2,9 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"time"
+	"strconv"
 )
 
 func fib(n int) int {
@@ -14,9 +16,10 @@ func fib(n int) int {
 
 
 func main() {
+	N := os.Args[1]
+	arg, _ := strconv.Atoi(N)
 	start := time.Now()
-	fib(35)
+	fib(arg)
 	diff := time.Since(start)
-	fmt.Println(diff)
-	// fmt.Println(res)
+	fmt.Println("Go: ", diff)
 }

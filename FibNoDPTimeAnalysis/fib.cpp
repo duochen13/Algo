@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 #include <time.h>
 
 using namespace std;
@@ -9,12 +10,12 @@ int fib(int n) {
 	return fib(n - 1) + fib(n - 2);
 }
 
-int main() {
+int main(int argc, char *argv[]) {
 	int res;
-
+	int N = atoi(argv[1]);
 	clock_t start = clock();
-	fib(35);
+	fib(N);
 	clock_t end = clock();	
 
-	cout << (double)(end - start)/CLOCKS_PER_SEC << endl;
+	cout << "c++: " << 1000 * (double)(end - start)/CLOCKS_PER_SEC << "ms" << endl;
 }

@@ -1,4 +1,8 @@
 const {performance} = require('perf_hooks');
+const process = require('process');
+
+var args = process.argv
+N = parseInt(args[2])
 
 function fib(n) {
 	if (n == 0 || n == 1) {
@@ -8,8 +12,8 @@ function fib(n) {
 }
 
 let start = performance.now()
-fib(40)
+fib(N)
 let end = performance.now()
 
-console.log(end - start) //ms
+console.log("js: ", end - start, "ms") //ms
 
