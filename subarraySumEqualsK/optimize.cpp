@@ -5,15 +5,16 @@
 // [2,4,1,5,3,6]   k = 6
 //        ^
 
+// memo[tmp], # subarrys whose sum is equal to tmp
 int subarraySum(std::vector<int> &nums, int k) {
     std::unordered_map<int, int> memo;
     memo[0] = 1;
     int res = 0, cur_sum = 0;
-    for (int i = 0; i < nums.size(); ++i) {
-        cur_sum += nums[i];
+    for (auto &num:nums) {
+        cur_sum += num;
         res += memo[cur_sum - k];
         memo[cur_sum] += 1;
-    }
+    } 
     return res;
 }
 
