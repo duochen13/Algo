@@ -30,6 +30,15 @@ class Board:
         if self.board[x][y] == 'x':
             raise Exception('End!')
         self.board[x][y] = '*'
+        # display surrounding mines
+        mines = 0
+        for a, b in [[-1,0],[1,0],[0,-1],[0,1]]:
+            if x + a < 0 or x + a >= self.height or y + b < 0 or y + b >= self.width:
+                continue
+            if self.board[x + a][y + b] == 'x':
+                mines += 1
+        for a, b in [[-1,0],[1,0],[0,-1],[0,1]]:
+            self.board[x + a][y + b] = str(mines)
 
     def print_board(self):
         tmp = ''
