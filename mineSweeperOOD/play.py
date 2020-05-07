@@ -16,14 +16,20 @@ class Board:
         self.board = [['o' for _ in range(width)] for _ in range(height)] 
 
     def initialize(self):
-        tmp = 0
-        while tmp < self.num_mine:
-            x = random.randint(0, self.width - 1)
-            y = random.randint(0, self.height - 1)
-            if self.board[y][x] == 'o':
-                tmp += 1
-                self.board[y][x] = 'x'
-        print(self.board)
+        positions = [(r, c) for r in range(self.height) for c in range(self.width)]
+        random.shuffle(positions)
+        for i in range(self.num_mine):
+            x, y = positions[i]
+            self.board[x][y] = 'x'
+
+    def click_board(self, x, y):
+        # out of range err
+        if x < 0 or x >= self.height or y < 0 or y >= self.width:
+            raise Exception('You click out of range')
+        # bomb!
+        if self.board[x][y] == 'x':
+            raise Exception('End!')
+        self.board[x][y] = '*'
 
     def print_board(self):
         tmp = ''
@@ -33,10 +39,13 @@ class Board:
             tmp += '\n'
         print(tmp)
 
+    
+
 # pros and con
-board = Board(width=3, height=3, num_mine=4)
+board = Board(width=5, height=5, num_mine=4)
 board.initialize()
 board.print_board()
-
+board.click_board(1,1)
+board.print_board()
 
 
