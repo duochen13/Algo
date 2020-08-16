@@ -1,21 +1,11 @@
 ### `Exponential run-time for fib time analysis in multiple languages`
 
-![GitHub Logo](./FibNoDPTimeAnalysis/withpy.png)
-
-
-![Withoutpy](./FibNoDPTimeAnalysis/withoutpy.png)
-
-
-### `./run.sh > result.txt`
-### `python3 plot.py`
-
-### LinkedList vs ArrayList vs Array
 
 ### Hash
-- [Two Sum 1] (./Hash/TwoSum/Solution.java)
+- [Two Sum 1](./Hash/TwoSum/Solution.java)
 
 ### Stack
-- [ValidParentheses 20] (./Stack/ValidParentheses/Solution.java)
+- [ValidParentheses 20](./Stack/ValidParentheses/Solution.java)
 
 ### Notes
 ```
@@ -26,3 +16,7 @@ memo.put('c') instead of memo.put("(");
 Map<Character, Character> memo = new HashMap<Character, Character>();
 ```
 
+###TBR
+```
+LinkedList vs ArrayList vs Array
+```
