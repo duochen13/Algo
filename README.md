@@ -23,5 +23,6 @@ character space (1-26) is constant space
 String s -> s.toCharArray() || s.charAt(index)
 memo.put(c, memo.getOrDefault(c, 0) + 1);
 memo.put('c') instead of memo.put("(");
+Map<Character, Character> memo = new HashMap<Character, Character>();
 ```
 
