@@ -9,5 +9,6 @@
 ### `./run.sh > result.txt`
 ### `python3 plot.py`
 
-
+### LinkedList vs ArrayList vs Array
+### 
 
