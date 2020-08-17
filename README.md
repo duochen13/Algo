@@ -6,6 +6,7 @@
 
 ### Stack
 - [ValidParentheses 20](./Stack/ValidParentheses/Solution.java)
+- [TrappingRainWater 42](./Stack/TrappingRainWater/Solution.java)
 
 ### Notes
 ```
@@ -14,6 +15,7 @@ String s -> s.toCharArray() || s.charAt(index)
 memo.put(c, memo.getOrDefault(c, 0) + 1);
 memo.put('c') instead of memo.put("(");
 Map<Character, Character> memo = new HashMap<Character, Character>();
+java.util.EmptyStackException
 ```
 
 ###TBR
