@@ -20,7 +20,7 @@ class Solution {
                     continue;
                 }
                 // min(left_border, right_boder) * (x diff)
-                res += Math.min(height[stack.peek()], height[top]) * (i - stack.peek() - 1);
+                res += (Math.min(height[stack.peek()], height[i]) - height[top]) * (i - stack.peek() - 1);
             }
         }
 
