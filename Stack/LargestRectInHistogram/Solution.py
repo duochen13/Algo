@@ -8,12 +8,12 @@ def largestRectangleArea(heights):
     i = 0
     while i < len(heights):
         h = heights[i]
-        if not stack or h > heights[stack[-1]]:
+        if not stack or h >= heights[stack[-1]]:
             stack.append(i)
             i += 1
         else:
             tmp_index = stack.pop()
-            area = heights[tmp_index] * (i - tmp_index + 1)
+            area = heights[tmp_index] * ((i - stack[-1] - 1) if stack else i)
             res = max(res, area)
     while stack:
         tmp = stack.pop()
