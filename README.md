@@ -5,9 +5,11 @@
 ### Stack
 - [ValidParentheses 20](./Stack/ValidParentheses/Solution.java)
 - [TrappingRainWater 42](./Stack/TrappingRainWater/Solution.java)
+- [LargestRectInHistogram 84](./Stack/LargestRectInHistogram/Solution.java)
 - [DailyTemperature 739](./Stack/DailyTemperatures/Solution.java)
 - [RemoveDuplicateLetters(TBD) 316](./Stack/RemoveDuplicateLetters/Solution.java)
-- [LargestRectInHistogram 84](./Stack/LargestRectInHistogram/Solution.java)
+
+### Backtracking
 - [CombinationSum 39](./Array/CombinationSum/Solution.java)
 
 ### Notes
