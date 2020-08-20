@@ -30,8 +30,8 @@ class Solution {
 
 //   0 1  2  3  4  5  6  7
 /// 73,74,75,71,69,72,76,73
-//                     ^
+//                     ^            ^
 //  
-// stack: [2,3]
-// index:  4
-// res[index] = i - index = 6 - 5 = 1
+// stack: [2,5]
+// index:  3
+// res[index] = i - index = 5 - 2 = 2

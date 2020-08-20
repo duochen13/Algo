@@ -6,6 +6,9 @@
 - [ValidParentheses 20](./Stack/ValidParentheses/Solution.java)
 - [TrappingRainWater 42](./Stack/TrappingRainWater/Solution.java)
 - [DailyTemperature 739](./Stack/DailyTemperatures/Solution.java)
+- [RemoveDuplicateLetters(TBD) 316](./Stack/RemoveDuplicateLetters/Solution.java)
+- [LargestRectInHistogram 84](./Stack/LargestRectInHistogram/Solution.java)
+- [CombinationSum 39](./Array/CombinationSum/Solution.java)
 
 ### Notes
 ```
@@ -16,6 +19,15 @@ memo.put('c') instead of memo.put("(");
 Map<Character, Character> memo = new HashMap<Character, Character>();
 java.util.EmptyStackException
 use stack to store index or tuple maybe better when input list is fixed
+int[] func(new int[]{1,2,3,4}) {}
+return new Pair(1,2);
+Scanner sc = new Scanner(System.in); int n = sc.nextInt();
+List is an interface, cannot use func(new List<Integer>{}), use func(new ArrayList<Integer>{}) instead; 
+dfs avoid infinity, when pass list by reference, need to create new arraylist return val, or it would be empty
+error: List<Integer> res = new List<Integer>(), 
+correct: List<String> res = new ArrayList<String>(), List is interface
+Arrays.sort();
+
 ```
 
 ### TBR
