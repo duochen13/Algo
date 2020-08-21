@@ -10,7 +10,7 @@
 - [RemoveDuplicateLetters(TBD) 316](./Stack/RemoveDuplicateLetters/Solution.java)
 
 ### Backtracking
-- [CombinationSum 39](./Array/CombinationSum/Solution.java)
+- [CombinationSum 39 40 216](./Array/CombinationSum/Solution.java)
 
 ### Notes
 ```
@@ -29,6 +29,7 @@ dfs avoid infinity, when pass list by reference, need to create new arraylist re
 error: List<Integer> res = new List<Integer>(), 
 correct: List<String> res = new ArrayList<String>(), List is interface
 Arrays.sort();
+convert Set<List<Integer>> res = new HashSet<List<>>() to ArrayList<List<Integer>>(res);
 
 ```
 
