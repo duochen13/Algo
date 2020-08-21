@@ -1,4 +1,8 @@
-/.DS_Store
-*.swp
+**/.DS_Store
+**/.swp
+**/.vscode
 *.class
 *.exe
+*.javac
+.gitignore
+

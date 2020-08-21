@@ -7,6 +7,8 @@ import java.util.Set;
 
 class Solution {
 
+    public Set<List<Integer>> tmp = new HashSet<List<Integer>>();
+
     public void dfs(int start, int[] candidates, int target, List<Integer> currents, Set<List<Integer>> res) {
 
         if (target == 0) {
