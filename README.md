@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-### Hash
-
-### Stack
-
-### Backtrack
-=======
 
 ### Hash
 - [Two Sum 1](./Hash/TwoSum/Solution.java)
@@ -18,7 +11,7 @@
 
 ### Backtracking
 - [CombinationSum 39 40 216](./Array/CombinationSum/Solution.java)
->>>>>>> ec6f5cc81d9abb310e9992839d14712d681195c1
+
 
 ### Notes
 ```
@@ -39,12 +32,4 @@ correct: List<String> res = new ArrayList<String>(), List is interface
 Arrays.sort();
 convert Set<List<Integer>> res = new HashSet<List<>>() to ArrayList<List<Integer>>(res);
 
-<<<<<<< HEAD
-=======
-```
-
-### TBR
-```
-LinkedList vs ArrayList vs Array
->>>>>>> ec6f5cc81d9abb310e9992839d14712d681195c1
 ```
