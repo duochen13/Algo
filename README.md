@@ -6,15 +6,26 @@
 - [ValidParentheses 20](./Stack/ValidParentheses/Solution.java)
 - [TrappingRainWater 42](./Stack/TrappingRainWater/Solution.java)
 - [LargestRectInHistogram 84](./Stack/LargestRectInHistogram/Solution.java)
+```
+42 & 84, crea about condition of pushing to stack
+```
 - [DailyTemperature 739](./Stack/DailyTemperatures/Solution.java)
 - [RemoveDuplicateLetters(TBD) 316](./Stack/RemoveDuplicateLetters/Solution.java)
 
 ### Tree
-- [BalancedBinaryTree](./DFS/BalancedBinaryTree)
+- [BalancedBinaryTree 110](./Tree/BalancedBinaryTree)
+```
+Classic recursion, top-down (intutive) vs bot-up (optimized, avoid double traversal)
+```
+
+### DFS
+- [BinaryTreePath 257](./Tree/BinaryTreePath)
+```
+Tree recursion, or iteration (store tuple in stack)
+```
 
 ### Backtracking
 - [CombinationSum 39 40 216](./Array/CombinationSum/Solution.java)
-
 
 
 
@@ -37,5 +48,26 @@ error: List<Integer> res = new List<Integer>(),
 correct: List<String> res = new ArrayList<String>(), List is interface
 Arrays.sort();
 convert Set<List<Integer>> res = new HashSet<List<>>() to ArrayList<List<Integer>>(res);
-
+int -> Stirng: Integer.toString(2);
+new Pair<TreeNode, String>, getValue(), getKey()
 ```
+
+### TBR
+```
+database: index in relational / non-relational database, how to handle concurrency, frequency of read and write
+```
+
+### BGM
+- [Sik-K](https://www.youtube.com/watch?v=36HvpOE4opQ)
+- [Guren no Yumiya](https://www.youtube.com/watch?v=MIUQGbA8B4k)
+- [Never Grow Up](https://www.youtube.com/watch?v=qw7oS1FBHyI)
+- [Ignite](https://www.youtube.com/watch?v=sCwB3qKS_SQ)
+- [Angel](https://www.youtube.com/watch?v=fOUfYU2NEJU)
+- [Sanbonezakura](https://www.youtube.com/watch?v=LxkEr-3GCGU)
+- [Loser](https://www.youtube.com/watch?v=Dx_fKPBPYUI)
+- [Honey](https://www.youtube.com/watch?v=l3n6DiaELcc)
+- [Way back home](https://www.youtube.com/watch?v=4KSDFEI5I00)
+- [Unravel](https://www.youtube.com/watch?v=xFMPBPOy9SI)
+- [Lemon](https://www.youtube.com/watch?v=Gz1ldpRfg74)
+- [Brave Heart](https://www.youtube.com/watch?v=YsTGTwqNfsQ)
+- [Light of the Seven](https://www.youtube.com/watch?v=OCqMDeD6Fmc)
