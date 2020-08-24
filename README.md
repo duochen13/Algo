@@ -7,7 +7,7 @@
 - [TrappingRainWater 42](./Stack/TrappingRainWater/Solution.java)
 - [LargestRectInHistogram 84](./Stack/LargestRectInHistogram/Solution.java)
 ```
-42 & 84, crea about condition of pushing to stack
+42 & 84, care about condition of pushing to stack
 ```
 - [DailyTemperature 739](./Stack/DailyTemperatures/Solution.java)
 - [RemoveDuplicateLetters(TBD) 316](./Stack/RemoveDuplicateLetters/Solution.java)
@@ -22,6 +22,12 @@ Classic recursion, top-down (intutive) vs bot-up (optimized, avoid double traver
 - [BinaryTreePath 257](./Tree/BinaryTreePath)
 ```
 Tree recursion, or iteration (store tuple in stack)
+```
+
+### BFS
+- [BinaryTreeRightSideView 199](./BFS/BinaryTreeRightSideView/Solution.java)
+```
+Level order BFS (iteration)
 ```
 
 ### Backtracking
@@ -50,14 +56,20 @@ Arrays.sort();
 convert Set<List<Integer>> res = new HashSet<List<>>() to ArrayList<List<Integer>>(res);
 int -> Stirng: Integer.toString(2);
 new Pair<TreeNode, String>, getValue(), getKey()
+Deque<Integer> dq = new LinkedList<Integer>(), [add get peek poll][First Last]
+List cancatenation, list.addAll(list.subList(start, end));
 ```
 
 ### TBR
 ```
-database: index in relational / non-relational database, how to handle concurrency, frequency of read and write
+Database: index in relational / non-relational database, how to handle concurrency, frequency of read and write
+Denormalization(left): fewer joins, but hard to update
+Courses            Teachers       |  Courses   Teachers
+cid *tid (tname)   tid tname      |  cid *tid   tid tname
 ```
 
 ### BGM
+- [Unravel](https://www.youtube.com/watch?v=xFMPBPOy9SI)
 - [Sik-K](https://www.youtube.com/watch?v=36HvpOE4opQ)
 - [Guren no Yumiya](https://www.youtube.com/watch?v=MIUQGbA8B4k)
 - [Never Grow Up](https://www.youtube.com/watch?v=qw7oS1FBHyI)
@@ -67,7 +79,6 @@ database: index in relational / non-relational database, how to handle concurren
 - [Loser](https://www.youtube.com/watch?v=Dx_fKPBPYUI)
 - [Honey](https://www.youtube.com/watch?v=l3n6DiaELcc)
 - [Way back home](https://www.youtube.com/watch?v=4KSDFEI5I00)
-- [Unravel](https://www.youtube.com/watch?v=xFMPBPOy9SI)
 - [Lemon](https://www.youtube.com/watch?v=Gz1ldpRfg74)
 - [Brave Heart](https://www.youtube.com/watch?v=YsTGTwqNfsQ)
 - [Light of the Seven](https://www.youtube.com/watch?v=OCqMDeD6Fmc)
