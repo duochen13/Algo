@@ -23,6 +23,7 @@ Classic recursion, top-down (intutive) vs bot-up (optimized, avoid double traver
 ```
 Tree recursion, or iteration (store tuple in stack)
 ```
+- [Course Schedule 207](./DFS/CourseSchedule)
 
 ### BFS
 - [BinaryTreeRightSideView 199](./BFS/BinaryTreeRightSideView/Solution.java)
