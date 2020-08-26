@@ -17,7 +17,7 @@
 // 0: []
 // 1: [0]      
 // 2: [1]   
-// 3: []
+// 3: []]
 // 4: [3]
 // visited: [0, 1, 2, 3, 4]
 
@@ -35,10 +35,19 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-// *
+// Before starting
+// are edges duplicated?
+// convert adjacncy metrices 
+
+// General idea
+// starting from 1 node doing dfs, use a list to check if there exist a cycle
+
+// Analysis:
+// O(n), O(n)
+
 class Solution {
 
-    public boolean dfs(int start, HashMap<Integer, ArrayList<Integer>> memo, int[] visited) {
+    public boolean dfs(int start, HashMap<Integer, ArrayList<Integer>> memo, int[] visited, ArrayList<Integer> res) {
 
         if (visited[start] == 1){
             return false;
@@ -50,7 +59,7 @@ class Solution {
 
         if (memo.containsKey(i)) {
             for (int j : memo.get(start)) {
-                if (!dfs(j, memo, visited)) {
+                if (!dfs(j, memo, visited, res)) {
                     return false;
                 }
             }
@@ -59,12 +68,14 @@ class Solution {
         // visited
         visited[start] = 2;
 
+        res.add(start);
+
         return true;
     }
 
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
+    public int[] canFinish(int numCourses, int[][] prerequisites) {
 
-        if (prerequisites == null) return false;
+        if (prerequisites == null) return new int[]{};
 
         int[] visited = new int[numCourses];
         // unvisited
@@ -81,12 +92,14 @@ class Solution {
             }
         }
 
+        ArrayList<Integer> res = new ArrayList<Integer>();
+ 
         for (int i = 0; i < numCourses; ++i) {
-            if (!dfs(i, memo, visited)) {
-                return false;
+            if (!dfs(i, memo, visited, res)) {
+                return new int[]{};
             }
         }
 
-        return true;
+        return res.toArray();
     }
 }
