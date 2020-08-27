@@ -21,6 +21,7 @@
 Classic recursion, top-down (intutive) vs bot-up (optimized, avoid double traversal)
 ```
 - [FlattenBTtoLinkedList](./Tree/FlattenBTtoLinkedList)
+- [FindCommonAncestorOfBinaryTree](./Tree/FindCommonAncestorOfBinaryTree)
 
 ### DFS
 - [BinaryTreePath 257](./Tree/BinaryTreePath)
