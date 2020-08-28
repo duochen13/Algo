@@ -5,6 +5,9 @@
 ### LinkedList
 - [Reverse Linked List 206](./LinkedList/ReverseLinkedList/Solution.java)
 
+### Array
+- [Meeting Room 254](./Array/MeetingRooms)
+
 ### Stack
 - [ValidParentheses 20](./Stack/ValidParentheses/Solution.java)
 - [TrappingRainWater 42](./Stack/TrappingRainWater/Solution.java)
@@ -20,8 +23,11 @@
 ```
 Classic recursion, top-down (intutive) vs bot-up (optimized, avoid double traversal)
 ```
-- [FlattenBTtoLinkedList](./Tree/FlattenBTtoLinkedList)
-- [FindCommonAncestorOfBinaryTree](./Tree/FindCommonAncestorOfBinaryTree)
+- [FlattenBTtoLinkedList 114](./Tree/FlattenBTtoLinkedList)
+- [FindCommonAncestorOfBinaryTree 235](./Tree/FindCommonAncestorOfBinaryTree)
+```
+TBR iterative solution
+```
 
 ### DFS
 - [BinaryTreePath 257](./Tree/BinaryTreePath)
@@ -77,7 +83,8 @@ Database: index in relational / non-relational database, how to handle concurren
 Denormalization(left): fewer joins, but hard to update
 Courses            Teachers       |  Courses   Teachers
 cid *tid (tname)   tid tname      |  cid *tid   tid tname
-
+HashMap (not thread-safe), HashTable(thread-safe, disallow null key-value pair) ConcurrentHashMap(thread-safe, but lock every HashEntry instead of the whole key value pairs), 只锁被不同thread touch的entry，如果不同thread对不同的entry进行操作
+Heap (store objs, new String()), Stack (store programs)
 ```
 
 ### BGM
