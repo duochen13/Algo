@@ -24,22 +24,28 @@ def canAttendMeetings(intervals):
         preStart, preEnd = curStart, curEnd
     return True
 
+
+# inorder to oschedule the meeting within 1 room
+# previous meeting's end time < current meeting's start time
+# compare the current starting time with the smallest ending time (top element in the heap)
+
 def meetings(intervals):
-    intervals.sort()
     pq = []
-    cnt = 0
+    room = 0
     for curStart, curEnd in intervals:
         if not pq:
             heapq.heappush(pq, curEnd)
-            cnt += 1
+            room += 1
         else:
-            # unfinished, need extra room
-            if (curStart >= pq[0]):
+            # cur start time >= last end time
+            if curStart >= pq[0]:
                 heapq.heappop(pq)
+            # need extra room
             else:
-                cnt += 1
+                room += 1
             heapq.heappush(pq, curEnd)
-    return cnt
+    return room
+
 
 
 if __name__ == '__main__':
