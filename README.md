@@ -61,19 +61,15 @@ ArrayList<T>() -> T[]: arrayList.toArray();
 String s -> s.toCharArray() || s.charAt(index)
 memo.put(c, memo.getOrDefault(c, 0) + 1);
 memo.put('c') instead of memo.put("(");
-Map<Character, Character> memo = new HashMap<Character, Character>();
-int[] func(new int[]{1,2,3,4}) {}
 return new Pair(1,2);
-List is an interface, cannot use func(new List<Integer>{}), use func(new ArrayList<Integer>{}) instead; 
 dfs avoid infinity, when pass list by reference, need to create new one
 arraylist return val, or it would be empty
-error: List<Integer> res = new List<Integer>(), 
-correct: List<String> res = new ArrayList<String>(), List is interface
-Arrays.sort();
+Arrays.sort(nums, (a,b) -> (a - b));
 convert Set<List<Integer>> res = new HashSet<List<>>() to ArrayList<List<Integer>>(res);
 int -> Stirng: Integer.toString(2);
 new Pair<TreeNode, String>, getValue(), getKey()
 Deque<Integer> dq = new LinkedList<Integer>(), [add get peek poll][First Last]
+PriorityQueue<Integer> pq = new PriorityQueue<>(); offer, poll, add
 List cancatenation, list.addAll(list.subList(start, end));
 ```
 

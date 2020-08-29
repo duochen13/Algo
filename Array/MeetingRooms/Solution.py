@@ -23,3 +23,26 @@ def canAttendMeetings(intervals):
             return False
         preStart, preEnd = curStart, curEnd
     return True
+
+def meetings(intervals):
+    intervals.sort()
+    pq = []
+    cnt = 0
+    for curStart, curEnd in intervals:
+        if not pq:
+            heapq.heappush(pq, curEnd)
+            cnt += 1
+        else:
+            # unfinished, need extra room
+            if (curStart >= pq[0]):
+                heapq.heappop(pq)
+            else:
+                cnt += 1
+            heapq.heappush(pq, curEnd)
+    return cnt
+
+
+if __name__ == '__main__':
+    intervals = [[0,20],[5,15],[15,30],[30,40]]
+    res = meetings(intervals)
+    print(res)
