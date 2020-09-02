@@ -21,7 +21,7 @@ class ListNode {
 // }
 // return pre_ptr
 
-class Solution {
+public class Solution {
     public ListNode reverseList(ListNode head) {
         ListNode preNode = null;
         ListNode curNode = head;
@@ -32,6 +32,9 @@ class Solution {
             curNode = tmp;
         }
         return preNode;
+    }
+    public static void main(String[] args) {
+        System.out.println("hello wolrd");
     }
 }
 

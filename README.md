@@ -71,6 +71,7 @@ new Pair<TreeNode, String>, getValue(), getKey()
 Deque<Integer> dq = new LinkedList<Integer>(), [add get peek poll][First Last]
 PriorityQueue<Integer> pq = new PriorityQueue<>(); offer, poll, add
 List cancatenation, list.addAll(list.subList(start, end));
+String.indexOf("prefix");
 ```
 
 ### TBR
