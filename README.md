@@ -54,6 +54,9 @@ Level order BFS (iteration)
 - [FlattenBinaryTreetoLinkedList 114](./Tree/FlattenBTtoLinkedList/Solution.java)
 - [Reverse Linked List 206](./LinkedList/ReverseLinkedList/Solution.java)
 
+### Algorithms
+- [KMP String Search](./Algos/KMP/Solution.java)
+
 ### Notes
 ```
 Scanner sc = new Scanner(System.in); int n = sc.nextInt();
