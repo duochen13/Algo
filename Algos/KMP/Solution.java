@@ -30,23 +30,19 @@ class Solution {
         // construct prefix table from string P
         int[] prefix = new int[P.length()];
         prefix[0] = -1;
-        for (int i = 1; i <= P.length(); ++i) {
-            String tmp = P.substring(0, i);
-            int j = 1;
-            while (j < tmp.length() / 2) {
-                String prefixStr = tmp.substring(0, j);
-                String postfixStr = tmp.substring(tmp.length() - j);
-                if (!prefixStr.equals(postfixStr))
-                    break;
-                j += 1;
+        int i = 0;
+        int len = 0;
+        while (i < P.length()) {
+            if (P.charAt(i) == P.charAt(len)) {
+                ++len;
+                prefix[i] = len;
+                ++i;
+            } else {
+                if (len > 0) {
+                    len = prefix[len - 1];
+                }
             }
-            System.out.print(i);
-            System.out.print(":");
-            System.out.print(j);
-            System.out.print("  ");
-            prefix[i] = j;
         }
-
 
         return res;
     }

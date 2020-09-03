@@ -56,6 +56,7 @@ Level order BFS (iteration)
 
 ### Algorithms
 - [KMP String Search](./Algos/KMP/Solution.java)
+- [QuickSort](./Algos/QuickSort/Solution.java)
 
 ### Notes
 ```
@@ -101,3 +102,5 @@ Heap (store objs, new String()), Stack (store programs)
 - [Lemon](https://www.youtube.com/watch?v=Gz1ldpRfg74)
 - [Brave Heart](https://www.youtube.com/watch?v=YsTGTwqNfsQ)
 - [Light of the Seven](https://www.youtube.com/watch?v=OCqMDeD6Fmc)
+
+
