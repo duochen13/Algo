@@ -1,9 +1,11 @@
 
 ### Hash
 - [Two Sum 1](./Hash/TwoSum/Solution.java)
+- [Group Anagram 49](./Hash/GroupAnagram/Solution.java)
 
 ### LinkedList
 - [Reverse Linked List 206](./LinkedList/ReverseLinkedList/Solution.java)
+- [FlattenBinaryTreetoLinkedList 114](./Tree/FlattenBTtoLinkedList/Solution.java)
 
 ### Array
 - [Meeting Room 254](./Array/MeetingRooms)
@@ -49,14 +51,12 @@ Level order BFS (iteration)
 ### Backtracking
 - [CombinationSum 39 40 216](./Array/CombinationSum/Solution.java)
 
-
-### Pointer Manipulation
-- [FlattenBinaryTreetoLinkedList 114](./Tree/FlattenBTtoLinkedList/Solution.java)
-- [Reverse Linked List 206](./LinkedList/ReverseLinkedList/Solution.java)
-
 ### Algorithms
 - [KMP String Search](./Algos/KMP/Solution.java)
 - [QuickSort](./Algos/QuickSort/Solution.java)
+
+### OOD
+- [Borrow and return books at library](./OOD/library/Library.java)
 
 ### Notes
 ```
@@ -65,6 +65,9 @@ ArrayList<T>() -> T[]: arrayList.toArray();
 String s -> s.toCharArray() || s.charAt(index)
 memo.put(c, memo.getOrDefault(c, 0) + 1);
 memo.put('c') instead of memo.put("(");
+counter[x - 'a]++;
+hm.forEach((k, v) -> System.out.println(k + ": " + (v + 10)));
+return new Array(memo.values());  memo.values(): collections list
 return new Pair(1,2);
 dfs avoid infinity, when pass list by reference, need to create new one
 arraylist return val, or it would be empty
@@ -86,6 +89,7 @@ Courses            Teachers       |  Courses   Teachers
 cid *tid (tname)   tid tname      |  cid *tid   tid tname
 HashMap (not thread-safe), HashTable(thread-safe, disallow null key-value pair) ConcurrentHashMap(thread-safe, but lock every HashEntry instead of the whole key value pairs), 只锁被不同thread touch的entry，如果不同thread对不同的entry进行操作
 Heap (store objs, new String()), Stack (store programs)
+Unsigned ints (hold a large positive value, no negative value), signed (hold both postive and negative numbers)
 ```
 
 ### BGM
@@ -102,5 +106,3 @@ Heap (store objs, new String()), Stack (store programs)
 - [Lemon](https://www.youtube.com/watch?v=Gz1ldpRfg74)
 - [Brave Heart](https://www.youtube.com/watch?v=YsTGTwqNfsQ)
 - [Light of the Seven](https://www.youtube.com/watch?v=OCqMDeD6Fmc)
-
-

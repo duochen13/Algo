@@ -16,7 +16,7 @@ class Solution {
             }
         }
         // swap(arr[high], arr[i])
-        int tmp = arr[(high + low) / 2];
+        int tmp = arr[high];
         arr[high] = arr[i];
         arr[i] = tmp;
 
