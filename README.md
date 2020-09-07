@@ -72,6 +72,7 @@ return new Pair(1,2);
 dfs avoid infinity, when pass list by reference, need to create new one
 arraylist return val, or it would be empty
 Arrays.sort(nums, (a,b) -> (a - b));
+new LinkedList<>(Arrays.asList(arr));
 convert Set<List<Integer>> res = new HashSet<List<>>() to ArrayList<List<Integer>>(res);
 int -> Stirng: Integer.toString(2);
 new Pair<TreeNode, String>, getValue(), getKey()
