@@ -1,6 +1,9 @@
 
 ### Hash
 - [Group Anagram 49](./Hash/GroupAnagram/Solution.java)
+```
+sorted(bca) -> abc || keys = [0,1,0....0], len(keys) = 26
+```
 
 ### LinkedList
 - [Reverse Linked List 206](./LinkedList/ReverseLinkedList/Solution.java)
@@ -8,6 +11,9 @@
 
 ### Array
 - [Meeting Room 254](./Array/MeetingRooms)
+```
+heap solution is not optimal, suprise~
+```
 
 ### Stack
 - [ValidParentheses 20](./Stack/ValidParentheses/Solution.java)
@@ -49,12 +55,20 @@ Level order BFS (iteration)
 
 ### Backtracking
 - [CombinationSum 39 40 216](./Array/CombinationSum/Solution.java)
+```
+sorted or not, res[:] or res
+```
 
 
 ### DP
 - [LongestContinuousCommonSubArray](./DP/longestCommonSubArray)
+```
+dp[i,j]: LCCA of A[:i] and B[:j],  dp[i,j] = dp[i + 1][j + 1] + 1 if A[i] == B[j]
+```
 - [LongestIncreasingSubsequence 300](./DP/longestIncreasingSubsequence)
-
+```
+dp[i,j]: LISS of nums[i:j], dp[j] = max(dp[j], dp[i] + 1) if nums[i] < nums[j]
+```
 ### Algorithms
 - [KMP String Search](./Algos/KMP/Solution.java)
 - [QuickSort](./Algos/QuickSort/Solution.java)
