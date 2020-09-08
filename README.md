@@ -4,15 +4,16 @@
 ```
 sorted(bca) -> abc || keys = [0,1,0....0], len(keys) = 26
 ```
+- [Ads Converation Rate](./Hash/AdsConversionRate/Solution.py)
 
 ### LinkedList
 - [Reverse Linked List 206](./LinkedList/ReverseLinkedList/Solution.java)
 - [FlattenBinaryTreetoLinkedList 114](./Tree/FlattenBTtoLinkedList/Solution.java)
 
 ### Array
-- [Meeting Room 254](./Array/MeetingRooms)
+- [Meeting Room 254](./Stack/MeetingRooms/Solution.java)
 ```
-heap solution is not optimal, suprise~
+heap solution is not optimal
 ```
 
 ### Stack
@@ -46,7 +47,6 @@ Tree recursion, or iteration (store tuple in stack)
 omg DAG question
 ```
 
-
 ### BFS
 - [BinaryTreeRightSideView 199](./BFS/BinaryTreeRightSideView/Solution.java)
 ```
@@ -59,7 +59,6 @@ Level order BFS (iteration)
 sorted or not, res[:] or res
 ```
 
-
 ### DP
 - [LongestContinuousCommonSubArray](./DP/longestCommonSubArray)
 ```
@@ -70,11 +69,11 @@ dp[i,j]: LCCA of A[:i] and B[:j],  dp[i,j] = dp[i + 1][j + 1] + 1 if A[i] == B[j
 dp[i,j]: LISS of nums[i:j], dp[j] = max(dp[j], dp[i] + 1) if nums[i] < nums[j]
 ```
 ### Algorithms
-- [KMP String Search](./Algos/KMP/Solution.java)
+- [KMP TBR](./Algos/KMP/Solution.java)
 - [QuickSort](./Algos/QuickSort/Solution.java)
 
 ### OOD
-- [Borrow and return books at library](./OOD/library/Library.java)
+- [Borrow and return books at library TBR](./OOD/library/Library.java)
 
 ### Notes
 ```
