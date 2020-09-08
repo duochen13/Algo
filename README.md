@@ -51,6 +51,10 @@ Level order BFS (iteration)
 ### Backtracking
 - [CombinationSum 39 40 216](./Array/CombinationSum/Solution.java)
 
+
+### DP
+- [LongestContinuousCommonSubArray](./DP/longestCommonSubArray)
+
 ### Algorithms
 - [KMP String Search](./Algos/KMP/Solution.java)
 - [QuickSort](./Algos/QuickSort/Solution.java)
@@ -74,12 +78,15 @@ arraylist return val, or it would be empty
 Arrays.sort(nums, (a,b) -> (a - b));
 new LinkedList<>(Arrays.asList(arr));
 convert Set<List<Integer>> res = new HashSet<List<>>() to ArrayList<List<Integer>>(res);
-int -> Stirng: Integer.toString(2);
+Integer -> Stirng: Integer.toString(2);
+String -Integer: Integer.parseInt(cnt)
 new Pair<TreeNode, String>, getValue(), getKey()
 Deque<Integer> dq = new LinkedList<Integer>(), [add get peek poll][First Last]
 PriorityQueue<Integer> pq = new PriorityQueue<>(); offer, poll, add
 List cancatenation, list.addAll(list.subList(start, end));
 String.indexOf("prefix");
+hashMap.keySet()
+aString.split("\\."), "." means any character in regular expression
 ```
 
 ### TBR
