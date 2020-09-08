@@ -1,6 +1,5 @@
 
 ### Hash
-- [Two Sum 1](./Hash/TwoSum/Solution.java)
 - [Group Anagram 49](./Hash/GroupAnagram/Solution.java)
 
 ### LinkedList
@@ -54,6 +53,7 @@ Level order BFS (iteration)
 
 ### DP
 - [LongestContinuousCommonSubArray](./DP/longestCommonSubArray)
+- [LongestIncreasingSubsequence 300](./DP/longestIncreasingSubsequence)
 
 ### Algorithms
 - [KMP String Search](./Algos/KMP/Solution.java)
