@@ -5,6 +5,8 @@
 sorted(bca) -> abc || keys = [0,1,0....0], len(keys) = 26
 ```
 - [Ads Converation Rate](./Hash/AdsConversionRate/Solution.py)
+- [TargetSum]
+(./Hash/MeanSumTarget/Solution.java)
 
 ### LinkedList
 - [Reverse Linked List 206](./LinkedList/ReverseLinkedList/Solution.java)
