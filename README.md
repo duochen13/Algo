@@ -68,6 +68,12 @@ dp[i,j]: LCCA of A[:i] and B[:j],  dp[i,j] = dp[i + 1][j + 1] + 1 if A[i] == B[j
 ```
 dp[i,j]: LISS of nums[i:j], dp[j] = max(dp[j], dp[i] + 1) if nums[i] < nums[j]
 ```
+
+- [WordBreak 139 140](./DP/wordBreak/Solution.py)
+```
+dp[i]: s[:i] is workbreakable, dp[j] = dp[i]   if A[i:j] in wordDict, 140 TLE
+```
+
 ### Algorithms
 - [KMP TBR](./Algos/KMP/Solution.java)
 - [QuickSort](./Algos/QuickSort/Solution.java)
