@@ -1,12 +1,11 @@
 
-### Hash
+### HashTable
 - [Group Anagram 49](./Hash/GroupAnagram/Solution.java)
 ```
 sorted(bca) -> abc || keys = [0,1,0....0], len(keys) = 26
 ```
 - [Ads Converation Rate](./Hash/AdsConversionRate/Solution.py)
-- [TargetSum]
-(./Hash/MeanSumTarget/Solution.java)
+- [TargetSum](./Hash/MeanSumTarget/Solution.java)
 
 ### LinkedList
 - [Reverse Linked List 206](./LinkedList/ReverseLinkedList/Solution.java)
@@ -48,6 +47,8 @@ Tree recursion, or iteration (store tuple in stack)
 ```
 omg DAG question
 ```
+- [Number of Island, Largest Path](./DF/FindLargestIntPath)
+
 
 ### BFS
 - [BinaryTreeRightSideView 199](./BFS/BinaryTreeRightSideView/Solution.java)
@@ -119,6 +120,7 @@ cid *tid (tname)   tid tname      |  cid *tid   tid tname
 HashMap (not thread-safe), HashTable(thread-safe, disallow null key-value pair) ConcurrentHashMap(thread-safe, but lock every HashEntry instead of the whole key value pairs), 只锁被不同thread touch的entry，如果不同thread对不同的entry进行操作
 Heap (store objs, new String()), Stack (store programs)
 Unsigned ints (hold a large positive value, no negative value), signed (hold both postive and negative numbers)
+Arrays.copyOfRange(nums, i, j)
 ```
 
 ### BGM
