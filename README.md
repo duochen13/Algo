@@ -77,6 +77,12 @@ dp[i,j]: LISS of nums[i:j], dp[j] = max(dp[j], dp[i] + 1) if nums[i] < nums[j]
 dp[i]: s[:i] is workbreakable, dp[j] = dp[i]   if A[i:j] in wordDict, 140 TLE
 ```
 
+- [Edit Distance 72](./DP/editDistance/Solution.py)
+```
+dp[i,j]: number of operations from wordA[:i] to wordB[j:].  dp[i][j] = dp[i - 1][j - 1] if wordA[i] == wordB[j], dp[i][j] = 1 + max(insert, delete, swap)  
+```
+
+
 ### Algorithms
 - [KMP TBR](./Algos/KMP/Solution.java)
 - [QuickSort](./Algos/QuickSort/Solution.java)
@@ -109,6 +115,7 @@ List cancatenation, list.addAll(list.subList(start, end));
 String.indexOf("prefix");
 hashMap.keySet()
 aString.split("\\."), "." means any character in regular expression
+Arrays.copyOfRange(nums, i, j)
 ```
 
 ### TBR
@@ -119,9 +126,12 @@ Courses            Teachers       |  Courses   Teachers
 cid *tid (tname)   tid tname      |  cid *tid   tid tname
 HashMap (not thread-safe), HashTable(thread-safe, disallow null key-value pair) ConcurrentHashMap(thread-safe, but lock every HashEntry instead of the whole key value pairs), 只锁被不同thread touch的entry，如果不同thread对不同的entry进行操作
 Heap (store objs, new String()), Stack (store programs)
-Unsigned ints (hold a large positive value, no negative value), signed (hold both postive and negative numbers)
-Arrays.copyOfRange(nums, i, j)
+
+Load Balance
+
 ```
+
+
 
 ### BGM
 - [Unravel](https://www.youtube.com/watch?v=xFMPBPOy9SI)
