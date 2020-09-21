@@ -47,6 +47,8 @@ Tree recursion, or iteration (store tuple in stack)
 ```
 omg DAG question
 ```
+- [Find Leaves of Binary Tree 366](./DFS/FindLeavesOfBinaryTree)
+
 - [Number of Island, Largest Path](./DFS/FindLargestIntPath/Solution.cpp)
 
 
@@ -84,8 +86,9 @@ dp[i,j]: number of operations from wordA[:i] to wordB[j:].  dp[i][j] = dp[i - 1]
 
 
 ### Algorithms
-- [KMP TBR](./Algos/KMP/Solution.java)
+- [Fisher-Yates Shuffle](./Algos/Fisher-Yates/Solution.py)
 - [QuickSort](./Algos/QuickSort/Solution.java)
+- [KMP TBR](./Algos/KMP/Solution.java)
 
 ### OOD
 - [Borrow and return books at library TBR](./OOD/library/Library.java)
@@ -116,6 +119,7 @@ String.indexOf("prefix");
 hashMap.keySet()
 aString.split("\\."), "." means any character in regular expression
 Arrays.copyOfRange(nums, i, j)
+Character.isDigit('1')
 ```
 
 ### TBR
