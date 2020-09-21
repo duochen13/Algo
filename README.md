@@ -87,8 +87,14 @@ dp[i,j]: number of operations from wordA[:i] to wordB[j:].  dp[i][j] = dp[i - 1]
 
 ### Algorithms
 - [Fisher-Yates Shuffle](./Algos/Fisher-Yates/Solution.py)
+```
+If it's how random.shuffle() implemented, two sigma sucks
+```
 - [QuickSort](./Algos/QuickSort/Solution.java)
 - [KMP TBR](./Algos/KMP/Solution.java)
+
+### Divide & Conquer
+- [Closest points](./DivideAndConquer/ClosestPoints/Solution.py)
 
 ### OOD
 - [Borrow and return books at library TBR](./OOD/library/Library.java)
