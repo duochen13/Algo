@@ -14,7 +14,11 @@ sorted(bca) -> abc || keys = [0,1,0....0], len(keys) = 26
 ### Array
 - [Meeting Room 254](./Stack/MeetingRooms/Solution.java)
 ```
-heap solution is not optimal
+heap, or sort(key=lambda x : x[0]), # meeting rooms or # how many meetings withon single room
+```
+- [Partition Labels 763](./Array/PartitionLabels/Solution.py)
+```
+two pointer
 ```
 
 ### Stack
@@ -83,7 +87,6 @@ dp[i]: s[:i] is workbreakable, dp[j] = dp[i]   if A[i:j] in wordDict, 140 TLE
 ```
 dp[i,j]: number of operations from wordA[:i] to wordB[j:].  dp[i][j] = dp[i - 1][j - 1] if wordA[i] == wordB[j], dp[i][j] = 1 + max(insert, delete, swap)  
 ```
-
 
 ### Algorithms
 - [Fisher-Yates Shuffle](./Algos/Fisher-Yates/Solution.py)
