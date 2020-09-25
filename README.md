@@ -91,7 +91,7 @@ dp[i,j]: number of operations from wordA[:i] to wordB[j:].  dp[i][j] = dp[i - 1]
 ### Algorithms
 - [Fisher-Yates Shuffle](./Algos/Fisher-Yates/Solution.py)
 ```
-If it's how random.shuffle() implemented, two sigma sucks
+If it's how random.shuffle() implemented
 ```
 - [QuickSort](./Algos/QuickSort/Solution.java)
 - [KMP TBR](./Algos/KMP/Solution.java)
@@ -100,6 +100,7 @@ If it's how random.shuffle() implemented, two sigma sucks
 - [Closest points](./DivideAndConquer/ClosestPoints/Solution.py)
 
 ### OOD
+- [JAva Interface & Abstract class](./OOD/JavaOOD/Solution.java)
 - [Borrow and return books at library TBR](./OOD/library/Library.java)
 
 ### Notes
@@ -139,8 +140,8 @@ Courses            Teachers       |  Courses   Teachers
 cid *tid (tname)   tid tname      |  cid *tid   tid tname
 HashMap (not thread-safe), HashTable(thread-safe, disallow null key-value pair) ConcurrentHashMap(thread-safe, but lock every HashEntry instead of the whole key value pairs), 只锁被不同thread touch的entry，如果不同thread对不同的entry进行操作
 Heap (store objs, new String()), Stack (store programs)
-
 Load Balance
+Trhoughput & Latency
 
 ```
 
