@@ -93,14 +93,18 @@ dp[i,j]: number of operations from wordA[:i] to wordB[j:].  dp[i][j] = dp[i - 1]
 ```
 If it's how random.shuffle() implemented
 ```
+- [Garbage Collection in Java](./Algos/GarbageCollection/Solution.java)
 - [QuickSort](./Algos/QuickSort/Solution.java)
 - [KMP TBR](./Algos/KMP/Solution.java)
 
 ### Divide & Conquer
 - [Closest points](./DivideAndConquer/ClosestPoints/Solution.py)
 
+### Bits Manipulation
+- [Power of 4](./BitManipulation/PowerOfFour/Solution.py)
+
 ### OOD
-- [JAva Interface & Abstract class](./OOD/JavaOOD/Solution.java)
+- [Java Interface & Abstract class](./OOD/JavaOOD/Solution.java)
 - [Borrow and return books at library TBR](./OOD/library/Library.java)
 
 ### Notes
