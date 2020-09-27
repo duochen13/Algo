@@ -12,14 +12,17 @@ sorted(bca) -> abc || keys = [0,1,0....0], len(keys) = 26
 - [FlattenBinaryTreetoLinkedList 114](./Tree/FlattenBTtoLinkedList/Solution.java)
 
 ### Array
-- [Meeting Room 254](./Stack/MeetingRooms/Solution.java)
-```
-heap, or sort(key=lambda x : x[0]), # meeting rooms or # how many meetings withon single room
-```
 - [Partition Labels 763](./Array/PartitionLabels/Solution.py)
 ```
 two pointer
 ```
+
+### Heap
+- [Meeting Room 254](./Heap/MeetingRooms)
+```
+Arrays.sort(intervals, new Comparator<int[]>(){ public int compare(){}})
+```
+- [Top K Frequent Elements](./Heap/MeetingRooms)
 
 ### Stack
 - [ValidParentheses 20](./Stack/ValidParentheses/Solution.java)
@@ -100,12 +103,13 @@ If it's how random.shuffle() implemented
 ### Divide & Conquer
 - [Closest points](./DivideAndConquer/ClosestPoints/Solution.py)
 
-### Bits Manipulation
+### Bit Manipulation
 - [Power of 4](./BitManipulation/PowerOfFour/Solution.py)
 
 ### OOD
 - [Java Interface & Abstract class](./OOD/JavaOOD/Solution.java)
 - [Borrow and return books at library TBR](./OOD/library/Library.java)
+- [Get Medium]
 
 ### Notes
 ```
@@ -121,13 +125,18 @@ return new Pair(1,2);
 dfs avoid infinity, when pass list by reference, need to create new one
 arraylist return val, or it would be empty
 Arrays.sort(nums, (a,b) -> (a - b));
+Arrays.sort(intervals, new Comparator<int[]>() {
+    public int compare(int[] a, int[] b) {
+        return a[0] - b[0];
+    }
+});
 new LinkedList<>(Arrays.asList(arr));
 convert Set<List<Integer>> res = new HashSet<List<>>() to ArrayList<List<Integer>>(res);
 Integer -> Stirng: Integer.toString(2);
 String -Integer: Integer.parseInt(cnt)
 new Pair<TreeNode, String>, getValue(), getKey()
 Deque<Integer> dq = new LinkedList<Integer>(), [add get peek poll][First Last]
-PriorityQueue<Integer> pq = new PriorityQueue<>(); offer, poll, add
+PriorityQueue<Integer> pq = new PriorityQueue<>(); add, poll, peek
 List cancatenation, list.addAll(list.subList(start, end));
 String.indexOf("prefix");
 hashMap.keySet()
