@@ -22,7 +22,7 @@ two pointer
 ```
 Arrays.sort(intervals, new Comparator<int[]>(){ public int compare(){}})
 ```
-- [Top K Frequent Elements](./Heap/MeetingRooms)
+- [Top K Frequent Elements 347](./Heap/TopKFrequent)
 
 ### Stack
 - [ValidParentheses 20](./Stack/ValidParentheses/Solution.java)
