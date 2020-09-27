@@ -17,6 +17,8 @@ add(2), median = median(2)
 add(5), median = median(2,5)
 add(1), median = median(1,2,5)
 
+
+
 General idea
 (max val from relative small nums): 
 [5, 3, 2, 1]
@@ -36,9 +38,13 @@ class MedianFinder:
         self.pq2 = []
 
     def addNum(self, num: int) -> None:
+        # heapq.heappush(self.pq1, -num)
+        # if not self.pq2 or -self.pq1[0] > self.pq2[0]:
+        #     heapq.heappush(self.pq2, -1 * heapq.heappop(self.pq1))
+        # if len(self.pq2) > len(self.pq1):
+        #     heapq.heappush(self.pq1, -1 * heapq.heappop(self.pq2))
         heapq.heappush(self.pq1, -num)
-        if not self.pq2 or -self.pq1[0] > self.pq2[0]:
-            heapq.heappush(self.pq2, -heapq.heappop(self.pq1))
+        heapq.heappush(self.pq2, -heapq.heappop(self.pq1))
         if len(self.pq2) > len(self.pq1):
             heapq.heappush(self.pq1, -heapq.heappop(self.pq2))
 
@@ -51,7 +57,17 @@ class MedianFinder:
 
 mf = MedianFinder()
 tmp = []
-for num in [2,5,1,8,3,9,5]:
+for num in [-1,-2,-3,-4,-5]:
     mf.addNum(num)
     tmp.append(num)
-    assert statistics.median(tmp) == mf.findMedian()
+    print("num:{}, out:{}, correct:{}".format(num, mf.findMedian(), statistics.median(tmp)))
+    print("pq1:{}, pq2:{}".format(mf.pq1, mf.pq2))
+
+
+"""
+["MedianFinder","addNum","findMedian","addNum","findMedian","addNum","findMedian","addNum","findMedian","addNum","findMedian"]
+[[],[-1],[],[-2],[],[-3],[],[-4],[],[-5],[]]
+
+expected: [null,null,-1.00000,null,-1.50000,null,-2.00000,null,-2.50000,null,-3.00000]
+
+"""
