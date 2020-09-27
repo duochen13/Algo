@@ -23,6 +23,12 @@ two pointer
 Arrays.sort(intervals, new Comparator<int[]>(){ public int compare(){}})
 ```
 - [Top K Frequent Elements 347](./Heap/TopKFrequent)
+- [Merge K LinkedList 23](./Heap/MergeKLinkedList)
+```
+Input can be a streaming of data (access with get() method) instead of a list, or divide & conquer
+```
+- [Median from Data Stream 295](./OOD/MedianFromDataStream/Solution.py)
+
 
 ### Stack
 - [ValidParentheses 20](./Stack/ValidParentheses/Solution.java)
@@ -108,8 +114,8 @@ If it's how random.shuffle() implemented
 
 ### OOD
 - [Java Interface & Abstract class](./OOD/JavaOOD/Solution.java)
-- [Borrow and return books at library TBR](./OOD/library/Library.java)
-- [Get Medium]
+- [Random Number Generator](./Algos/Fisher-Yates/Solution.py)
+- [Median from Data Stream 295](./OOD/MedianFromDataStream/Solution.py)
 
 ### Notes
 ```
@@ -151,8 +157,10 @@ Database: index in relational / non-relational database, how to handle concurren
 Denormalization(left): fewer joins, but hard to update
 Courses            Teachers       |  Courses   Teachers
 cid *tid (tname)   tid tname      |  cid *tid   tid tname
+database sharding, replication, parition
 HashMap (not thread-safe), HashTable(thread-safe, disallow null key-value pair) ConcurrentHashMap(thread-safe, but lock every HashEntry instead of the whole key value pairs), 只锁被不同thread touch的entry，如果不同thread对不同的entry进行操作
 Heap (store objs, new String()), Stack (store programs)
+Amortized
 Load Balance
 Trhoughput & Latency
 
