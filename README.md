@@ -42,9 +42,7 @@ Input can be a streaming of data (access with get() method) instead of a list, o
 
 ### Tree
 - [BalancedBinaryTree 110](./Tree/BalancedBinaryTree)
-```
-Classic recursion, top-down (intutive) vs bot-up (optimized, avoid double traversal)
-```
+- [BoundaryOfBinaryTree 545](./Tree/BoundaryofBinaryTree/Solution.py)
 - [FlattenBTtoLinkedList 114](./Tree/FlattenBTtoLinkedList)
 - [FindCommonAncestorOfBinaryTree 235](./Tree/FindCommonAncestorOfBinaryTree)
 ```
@@ -116,6 +114,10 @@ If it's how random.shuffle() implemented
 - [Java Interface & Abstract class](./OOD/JavaOOD/Solution.java)
 - [Random Number Generator](./Algos/Fisher-Yates/Solution.py)
 - [Median from Data Stream 295](./OOD/MedianFromDataStream)
+- [Traffic Management System](./OOD/TrafficManagementSystem)
+
+### System Design
+- [Tiny URL](./SystemDesign/TinyURL)
 
 ### Notes
 ```
