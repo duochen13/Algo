@@ -44,9 +44,9 @@ Input can be a streaming of data (access with get() method) instead of a list, o
 - [BalancedBinaryTree 110](./Tree/BalancedBinaryTree)
 - [BoundaryOfBinaryTree 545](./Tree/BoundaryofBinaryTree/Solution.py)
 - [FlattenBTtoLinkedList 114](./Tree/FlattenBTtoLinkedList)
-- [FindCommonAncestorOfBinaryTree 235](./Tree/FindCommonAncestorOfBinaryTree)
+- [FindCommonAncestorOfBinaryTree 235 236](./Tree/FindCommonAncestorOfBinaryTree)
 ```
-TBR iterative solution
+BST -> BT -> N-ary Tree
 ```
 
 ### DFS
