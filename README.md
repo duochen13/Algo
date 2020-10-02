@@ -100,6 +100,7 @@ dp[i,j]: number of operations from wordA[:i] to wordB[j:].  dp[i][j] = dp[i - 1]
 ```
 If it's how random.shuffle() implemented
 ```
+- [Floyd's Cycle Detection](./Algos/FloydCycleDetection/Solution.py)
 - [Garbage Collection in Java](./Algos/GarbageCollection/Solution.java)
 - [QuickSort](./Algos/QuickSort/Solution.java)
 - [KMP TBR](./Algos/KMP/Solution.java)
