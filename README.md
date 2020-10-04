@@ -16,6 +16,7 @@ sorted(bca) -> abc || keys = [0,1,0....0], len(keys) = 26
 ```
 two pointer
 ```
+- [FindMissingNumberFromArithmeticSequence TBR](./Array/MissingNumber/Solution.py)
 
 ### Heap
 - [Meeting Room 254](./Heap/MeetingRooms)
