@@ -113,11 +113,13 @@ If it's how random.shuffle() implemented
 - [Power of 4](./BitManipulation/PowerOfFour/Solution.py)
 
 ### OOD
-- [Java Interface & Abstract class](./OOD/JavaOOD/Solution.java)
+- [LRU Cache](./OOD/LRUCache/Solution.java)
 - [Random Number Generator](./Algos/Fisher-Yates/Solution.py)
 - [Median from Data Stream 295](./OOD/MedianFromDataStream)
 - [Top K Frequent from Data Stream](./OOD/TopKDataStream/Solution.py)
 - [ParkingLot](./OOD/ParkingLot/Solution.java)
+- [Java Interface & Abstract class](./OOD/JavaOOD/Solution.java)
+
 
 ### System Design
 - [Tiny URL](./SystemDesign/TinyURL)
@@ -175,6 +177,7 @@ Trhoughput & Latency
 
 ### BGM
 - [Shining/Snow-Rain](https://www.youtube.com/watch?v=dBem3WfTnXc)
+- [Sweet Sundae](https://www.youtube.com/watch?v=jPkzadM6XXE)
 - [Karakuri Pierrot](https://www.youtube.com/watch?v=l82y3WIaqW0)
 - [BigYear](https://www.youtube.com/watch?v=qJoAHZKqSDY)
 - [Unravel](https://www.youtube.com/watch?v=xFMPBPOy9SI)
