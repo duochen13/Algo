@@ -113,6 +113,7 @@ If it's how random.shuffle() implemented
 - [Power of 4](./BitManipulation/PowerOfFour/Solution.py)
 
 ### OOD
+- [Queen's Gambit'](./OOD/QueensGambit/Solution.py)
 - [LRU Cache](./OOD/LRUCache/Solution.java)
 - [Random Number Generator](./Algos/Fisher-Yates/Solution.py)
 - [Median from Data Stream 295](./OOD/MedianFromDataStream)
