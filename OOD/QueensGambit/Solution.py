@@ -1,3 +1,4 @@
+import sys
 
 class Chess:
 
@@ -20,18 +21,50 @@ class Chess:
             print('')
         print('  a  b  c  d  e  f  g  h\n')
 
+    # ex: move("d2","d4")
     def move(self, start, end):
         y1, x1, y2, x2 = start[0], start[1], end[0], end[1]
         # ERROR: Out of range
         y1 = ord(y1) - ord('a')
-        x1 = int(x1) - 1
-        node = self.board[x1][y1]
+        x1 = 8 - int(x1)
+        startNode = self.board[x1][y1]
+        isBalck = startNode.islower()
         self.board[x1][y1] = '. '
         y2 = ord(y2) - ord('a')
-        x2 = int(x2) - 1
-        self.board[x2][y2] = node
-
+        x2 = 8 - int(x2)
+        endNode = self.board[x2][y2]
+        self.board[x2][y2] = startNode
+        # Take the opponent's node
+    
+    
 chess = Chess()
 chess.printBoard()
-chess.move('d2', 'd4')
-chess.printBoard()
+
+whiteTurn = True
+start = end = ""
+
+QueensGambit = [
+"d2 d4",
+"d7 d5",
+"c2 e4",
+"d5 c4",
+"e2 e3",
+"b7 b5",
+"a2 a4",
+"c7 c6",
+"a4 b5",
+"c6 b5",
+"d1 f3"
+]
+
+
+for line in QueensGambit:
+    # line: move("d2", "d4")
+    line = line.rstrip()
+    start, end = line.split(" ")
+    chess.move(start, end)
+    print("[{}] move from {} to {}".format("White" if whiteTurn else "Black", start, end))
+    chess.printBoard()
+    whiteTurn = not whiteTurn
+
+    
