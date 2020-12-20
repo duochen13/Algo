@@ -121,6 +121,7 @@ If it's how random.shuffle() implemented
 - [Top K Frequent from Data Stream](./OOD/TopKDataStream/Solution.py)
 - [ParkingLot](./OOD/ParkingLot/Solution.java)
 - [Java Interface & Abstract class](./OOD/JavaOOD/Solution.java)
+- [Templates](./OOD/Templates/play.cpp)
 
 ### System Design
 - [Tiny URL](./SystemDesign/TinyURL)
