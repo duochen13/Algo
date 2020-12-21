@@ -1,4 +1,4 @@
-
+/
 ### HashTable
 - [Group Anagram 49](./Hash/GroupAnagram/Solution.java)
 ```
@@ -96,6 +96,8 @@ dp[i]: s[:i] is workbreakable, dp[j] = dp[i]   if A[i:j] in wordDict, 140 TLE
 ```
 dp[i,j]: number of operations from wordA[:i] to wordB[j:].  dp[i][j] = dp[i - 1][j - 1] if wordA[i] == wordB[j], dp[i][j] = 1 + max(insert, delete, swap)  
 ```
+- [Matrix Chain Manipulation](./DP/MatrixChainMultiplication/Solution.py)
+
 
 ### Algorithms
 - [Fisher-Yates Shuffle](./Algos/Fisher-Yates/Solution.py)
