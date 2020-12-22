@@ -1,4 +1,4 @@
-/
+
 ### HashTable
 - [Group Anagram 49](./Hash/GroupAnagram/Solution.java)
 ```
@@ -124,6 +124,7 @@ If it's how random.shuffle() implemented
 - [ParkingLot](./OOD/ParkingLot/Solution.java)
 - [Java Interface & Abstract class](./OOD/JavaOOD/Solution.java)
 - [Templates](./OOD/Templates/play.cpp)
+- [Functor](./OOD/Functor/test.cpp)
 
 ### System Design
 - [Tiny URL](./SystemDesign/TinyURL)
