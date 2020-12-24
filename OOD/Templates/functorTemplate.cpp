@@ -27,7 +27,6 @@ void goo(int t, double a) {
     std::cout << "goo(int t, double a )template called with: " << t << " and " << std::endl;
 }
 
-
 void greetings(std::string name) { std::cout << "Hello! " << name << std::endl; }
 void screaming(int level) { std::cout << "My panic level is " << level << std::endl; }
 
