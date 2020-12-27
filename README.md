@@ -72,6 +72,7 @@ DAG
 ### BFS
 - [BinaryTreeRightSideView 199](./BFS/BinaryTreeRightSideView/Solution.java)
 - [WordLadder](./BFS/WordLadder/Solution.java)
+- [Shortest Distance from All Buildings](./BFS/ShortestDistanceFromBuildings/Solution.py)
 
 ### Backtracking
 - [CombinationSum 39 40 216](./DFS/CombinationSum/Solution.py)
