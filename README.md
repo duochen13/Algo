@@ -1,6 +1,6 @@
 
 ### HashTable
-- [Group Anagram 49](./Hash/GroupAnagram/Solution.java)
+- [Group Anagram 49](./Hash/GroupAnagram)
 ```
 sorted(bca) -> abc || keys = [0,1,0....0], len(keys) = 26
 ```
@@ -8,12 +8,12 @@ sorted(bca) -> abc || keys = [0,1,0....0], len(keys) = 26
 - [TargetSum](./Hash/MeanSumTarget/Solution.java)
 
 ### LinkedList
-- [Reverse Linked List 206](./LinkedList/ReverseLinkedList/Solution.java)
+- [Reverse Linked List 206](./LinkedList/ReverseLinkedList)
 - [Clone LinkedList with Random Pointer 138](./LinkedList/CloneLinkedListWithRandPtr/Solution.py)
 - [FlattenBinaryTreetoLinkedList 114](./Tree/FlattenBTtoLinkedList/Solution.java)
 
 ### Array
-- [Partition Labels 763](./Array/PartitionLabels/Solution.py)
+- [Partition Labels 763](./Array/PartitionLabels)
 ```
 two pointer
 ```

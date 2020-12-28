@@ -1,6 +1,7 @@
 import java.util.*;
 
 class Solution {
+
     public List<List<String>> groupAnagrams(String[] strs) {
         
         Map<String, List> memo = new HashMap<>();
@@ -15,6 +16,7 @@ class Solution {
             memo.get(key).add(str);
         }
         
-        return new ArrayList(memo.values());
-    }
+    return new ArrayList(memo.values());
+    
+
 }
