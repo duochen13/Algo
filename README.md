@@ -1,4 +1,4 @@
-
+    
 ### HashTable
 - [Group Anagram 49](./Hash/GroupAnagram)
 ```
@@ -14,6 +14,7 @@ sorted(bca) -> abc || keys = [0,1,0....0], len(keys) = 26
 
 ### Array
 - [Partition Labels 763](./Array/PartitionLabels)
+- [Missing Number](./Array/MissingNumber)
 ```
 two pointer
 ```
