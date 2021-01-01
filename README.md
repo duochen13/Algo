@@ -54,11 +54,8 @@ BST -> BT -> N-ary Tree
 
 ### DFS
 - [BinaryTreePath 257](./Tree/BinaryTreePath)
-```
-Tree recursion, or iteration
-```
+- [DividedToGroups](./DFS/DividedToGroups)
 - [Pacific Atlantic Waterflow](./DFS/OceanWaterFlow)
-
 - [Course Schedule 207](./DFS/CourseSchedule)
 ```
 DAG
