@@ -38,7 +38,7 @@ def dfs(node, memo, set1, set2, skip):
 
 
 
-def ableToDivide(N, nodes):
+def ableToDivideRur(N, nodes):
     # construct adijacent list for graph representation
     memo = collections.defaultdict(list)
     for a,b in nodes:
@@ -51,6 +51,41 @@ def ableToDivide(N, nodes):
         if not dfs(n, memo, set1, set2, True):
             return False
     return True
+
+
+def ableToDivide(N, nodes):
+    memo = collections.defaultdict(list)
+    for a, b in nodes:
+        memo[a].append(b)
+        memo[b].append(a)
+    skip = True
+    set1, set2 = set(), set()
+    stack = [1]
+    while stack:
+        node = stack.pop()
+        # base case
+        if skip:
+            if node in set2:
+                return False
+            if node in set1:
+                return True
+            set1.add(node)
+        else:
+            if node in set1:
+                return False
+            if node in set2:
+                return True
+            set2.add(node)
+        # dfs
+        skip = not skip
+        for n in memo[node]:
+            stack.append(n)
+    return True
+
+
+
+
+
 
 
 # assert ableToDivide(N=4,  nodes=[[1,2], [1,3], [2,1],[3,4]]) == True
