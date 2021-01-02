@@ -55,6 +55,7 @@ BST -> BT -> N-ary Tree
 ### DFS
 - [BinaryTreePath 257](./Tree/BinaryTreePath)
 - [DividedToGroups](./DFS/DividedToGroups)
+- [EqualShapesWithinMatrix](./DFS/EqualMatrix)
 - [Pacific Atlantic Waterflow](./DFS/OceanWaterFlow)
 - [Course Schedule 207](./DFS/CourseSchedule)
 ```

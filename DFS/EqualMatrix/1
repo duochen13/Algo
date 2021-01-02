@@ -1,0 +1,68 @@
+"""
+0 1 1 0 0
+0 0 1 0 0
+0 0 0 1 1
+0 0 0 0 1
+output: 1 pair of equal matrix
+
+1 1 0 0 
+1 1 1 0
+0 0 0 0
+0 1 1 0
+0 1 1 0
+output 0 pair of equal matrix
+"""
+
+def collectMatrix(grid, i, j, memo):
+    m, n = len(grid), len(grid[0])
+    # out of range or visited or no values
+    if i < 0 or i >= m or j < 0 or j >= n or grid[i][j] == -1 or grid[i][j] == 0:
+        return
+    # mark cur position as visited
+    print(i, j, grid)
+    grid[i][j] == -1
+    print("memo[{}][{}] = {}".format(i, j, memo[i][j]))
+    # dfs
+    dirs = [[-1,0],[1,0],[0,-1],[0,1]]
+    # store in memo
+    memo[-1].append([i, j])
+    for a, b in dirs:
+        collectMatrix(grid, i + a, j + b, memo)
+
+
+def equalMatrix(grid):
+    if not grid or not grid[0]:
+        return 0
+    m, n = len(grid), len(grid[0])
+    
+    memo = []
+
+    for i in range(m):
+        for j in range(n):
+            if grid[i][j] == 1:
+                memo.append([])
+                collectMatrix(grid, i, j, memo)
+                # print("memo:{}".format(memo))
+    return -1
+
+grid = [
+[0,1,1,0,0],
+[0,0,1,0,0],
+[0,0,0,1,1],
+[0,0,0,0,1]]
+# output: 1 pair of equal matrix
+res = equalMatrix(grid)
+print(res)
+
+#1 1 0 0 
+#1 1 1 0
+#0 0 0 0
+#0 1 1 0
+#0 1 1 0
+#output 0 pair of equal matrix
+
+
+
+
+
+
