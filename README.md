@@ -90,6 +90,8 @@ dp[i,j]: LISS of nums[i:j], dp[j] = max(dp[j], dp[i] + 1) if nums[i] < nums[j]
 ```
 - [LongestCommonSubsequence 1143](./DP/longestCommonSubsequence)
 
+- [LongestStringChain 1048](./DP/longestStringChain)
+
 - [WordBreak 139 140](./DP/wordBreak/Solution.py)
 ```
 dp[i]: s[:i] is workbreakable, dp[j] = dp[i]   if A[i:j] in wordDict, 140 TLE
