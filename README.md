@@ -1,4 +1,4 @@
-    
+/ 
 ### HashTable
 - [Group Anagram 49](./Hash/GroupAnagram)
 ```
@@ -55,18 +55,16 @@ BST -> BT -> N-ary Tree
 ### DFS
 - [BinaryTreePath 257](./Tree/BinaryTreePath)
 - [DividedToGroups](./DFS/DividedToGroups)
-- [EqualShapesWithinMatrix](./DFS/EqualMatrix)
+- [Number of Distinct Islands 694](./DFS/EqualMatrix)
+- [GraphValidTree](./DFS/GraphValidTree)
 - [Pacific Atlantic Waterflow](./DFS/OceanWaterFlow)
 - [Course Schedule 207](./DFS/CourseSchedule)
 ```
 DAG
 ```
 - [Find Leaves of Binary Tree 366](./DFS/FindLeavesOfBinaryTree)
-
 - [All Paths from Source to Target 797](./DFS/AllPathsFromSourceToTarget/Solution.py)
-
 - [Number of Island, Largest Path](./DFS/FindLargestIntPath/Solution.cpp)
-
 
 ### BFS
 - [BinaryTreeRightSideView 199](./BFS/BinaryTreeRightSideView/Solution.java)
