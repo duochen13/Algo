@@ -1,4 +1,4 @@
-/ 
+ 
 ### HashTable
 - [Group Anagram 49](./Hash/GroupAnagram)
 ```
@@ -56,9 +56,12 @@ BST -> BT -> N-ary Tree
 - [BinaryTreePath 257](./Tree/BinaryTreePath)
 - [DividedToGroups](./DFS/DividedToGroups)
 - [Number of Distinct Islands 694](./DFS/EqualMatrix)
+- [Pacific Atlantic Waterflow](./DFS/OceanWaterFlow)
 - [GraphValidTree](./DFS/GraphValidTree)
 - [MinimumHeightTree](./DFS/MinimumHeightTree)
-- [Pacific Atlantic Waterflow](./DFS/OceanWaterFlow)
+```
+TLE, tree dp + purning TBF, undirected graph
+```
 - [Course Schedule 207](./DFS/CourseSchedule)
 ```
 DAG
@@ -72,6 +75,10 @@ DAG
 - [WordLadder](./BFS/WordLadder/Solution.java)
 - [Shortest Distance from All Buildings](./BFS/ShortestDistanceFromBuildings/Solution.py)
 - [Amazon Locker](./BFS/AmazonLocker/Solution.py)
+- [Alien Dictionary](./BFS/AlienDictionary)
+```
+BFS in DAG, Toposort, course schedule emmm
+```
 
 ### Backtracking
 - [CombinationSum 39 40 216](./DFS/CombinationSum/Solution.py)
