@@ -57,6 +57,7 @@ BST -> BT -> N-ary Tree
 - [DividedToGroups](./DFS/DividedToGroups)
 - [Number of Distinct Islands 694](./DFS/EqualMatrix)
 - [GraphValidTree](./DFS/GraphValidTree)
+- [MinimumHeightTree](./DFS/MinimumHeightTree)
 - [Pacific Atlantic Waterflow](./DFS/OceanWaterFlow)
 - [Course Schedule 207](./DFS/CourseSchedule)
 ```
