@@ -63,6 +63,7 @@ BST -> BT -> N-ary Tree
 TLE, tree dp + purning TBF, undirected graph
 ```
 - [Course Schedule 207](./DFS/CourseSchedule)
+- [Reconstruct Itinerary 322](./DFS/ReconstructItinerary)
 ```
 DAG
 ```
