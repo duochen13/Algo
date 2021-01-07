@@ -92,6 +92,7 @@ sorted or not, res[:] or res
 ```
 
 ### DP
+- [LongestPalindromicSubstring](./DP/longestPalindromicSubstr)
 - [LongestContinuousCommonSubArray](./DP/longestCommonSubArray)
 ```
 dp[i,j]: LCCA of A[:i] and B[:j],  dp[i,j] = dp[i + 1][j + 1] + 1 if A[i] == B[j]
