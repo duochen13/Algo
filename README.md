@@ -1,5 +1,4 @@
-/ 
-### HashTable
+ ### HashTable
 - [Group Anagram 49](./Hash/GroupAnagram)
 ```
 sorted(bca) -> abc || keys = [0,1,0....0], len(keys) = 26
@@ -56,7 +55,10 @@ BST -> BT -> N-ary Tree
 - [BinaryTreePath 257](./Tree/BinaryTreePath)
 - [DividedToGroups](./DFS/DividedToGroups)
 - [Number of Distinct Islands 694](./DFS/EqualMatrix)
-- [Maximal Square 221](./DFS/MaximalSquare)
+- [Maximal Square 221](./DFS/MaximalSquare/Solution.py)
+```
+694-221
+```
 - [Pacific Atlantic Waterflow](./DFS/OceanWaterFlow)
 - [GraphValidTree](./DFS/GraphValidTree)
 - [MinimumHeightTree](./DFS/MinimumHeightTree)
