@@ -34,6 +34,9 @@ Input can be a streaming of data (access with get() method) instead of a list, o
 
 ### Stack
 - [ValidParentheses 20](./Stack/ValidParentheses/Solution.java)
+```
+921 minimum inserts to make valid (), stack or one pass sol
+```
 - [TrappingRainWater 42](./Stack/TrappingRainWater/Solution.java)
 - [LargestRectInHistogram 84](./Stack/LargestRectInHistogram/Solution.java)
 ```
