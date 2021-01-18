@@ -35,7 +35,7 @@ Input can be a streaming of data (access with get() method) instead of a list, o
 ### Stack
 - [ValidParentheses 20](./Stack/ValidParentheses/Solution.java)
 ```
-921 minimum inserts to make valid (), stack or one pass sol
+921, 1514 minimum inserts to make valid (), stack or one pass sol
 ```
 - [TrappingRainWater 42](./Stack/TrappingRainWater/Solution.java)
 - [LargestRectInHistogram 84](./Stack/LargestRectInHistogram/Solution.java)
@@ -133,6 +133,8 @@ If it's how random.shuffle() implemented
 - [Garbage Collection in Java](./Algos/GarbageCollection/Solution.java)
 - [QuickSort](./Algos/QuickSort/Solution.java)
 - [KMP TBR](./Algos/KMP/Solution.java)
+- [BinarySearch](./Algos/BinarySearch)
+- [MergeSort](./Algos/MergeSort)
 
 ### Divide & Conquer
 - [Closest points](./DivideAndConquer/ClosestPoints/Solution.py)

@@ -43,10 +43,52 @@ def mergeSort(nums):
     combine(nums, 0, mid, len(nums))
 
 
-nums = [2,4,5,1,9,6,8,7]
-print("nums: {}".format(nums))
+#nums = [2,4,5,1,9,6,8,7]
+#print("nums: {}".format(nums))
+#
+#mergeSort(nums)
+#
+#print("nums: {}".format(nums))
 
-mergeSort(nums)
 
-print("nums: {}".format(nums))
+def testCombine(nums):
+    mid = len(nums) // 2
+    leftNums, rightNums = nums[:mid], nums[mid:]
+    print("leftNums:{}, rightNums:{}".format(leftNums, rightNums))
+    N1, N2 = len(leftNums), len(rightNums)
+    i = j = k = 0
+    while i < N1 and j < N2:
+        if leftNums[i] < rightNums[j]:
+            nums[k] = leftNums[i]
+            i += 1
+        else:
+            nums[k] = rightNums[j]
+            j += 1
+        print("nums[{}] = {}".format(k, nums[k]))
+        k += 1
+    while i < N1:
+        nums[k] = leftNums[i]
+        i += 1
+        k += 1
+    while j < N2:
+        nums[k] = rightNums[j]
+        j += 1
+        k += 1
+
+
+nums = [2,3,5,6,4,7,8,9]
+testCombine(nums)
+
+print("sorted nums:{}".format(nums))
+
+
+
+
+
+
+
+
+
+    
+
 
