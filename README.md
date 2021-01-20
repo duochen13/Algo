@@ -212,6 +212,7 @@ Trhoughput & Latency
 
 ### BGM
 - [Shining/Snow-Rain](https://www.youtube.com/watch?v=dBem3WfTnXc)
+- [LEMON](https://www.youtube.com/watch?v=spfLnDJPDF4)
 - [Sweet Sundae](https://www.youtube.com/watch?v=jPkzadM6XXE)
 - [Karakuri Pierrot](https://www.youtube.com/watch?v=l82y3WIaqW0)
 - [BigYear](https://www.youtube.com/watch?v=qJoAHZKqSDY)
