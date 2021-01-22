@@ -212,7 +212,7 @@ Trhoughput & Latency
 
 ### BGM
 - [Shining/Snow-Rain](https://www.youtube.com/watch?v=dBem3WfTnXc)
-- [LEMON](https://www.youtube.com/watch?v=spfLnDJPDF4)
+- [Lemon](https://www.youtube.com/watch?v=spfLnDJPDF4)
 - [Sweet Sundae](https://www.youtube.com/watch?v=jPkzadM6XXE)
 - [Karakuri Pierrot](https://www.youtube.com/watch?v=l82y3WIaqW0)
 - [BigYear](https://www.youtube.com/watch?v=qJoAHZKqSDY)
@@ -229,4 +229,6 @@ Trhoughput & Latency
 - [Lemon](https://www.youtube.com/watch?v=Gz1ldpRfg74)
 - [Brave Heart](https://www.youtube.com/watch?v=YsTGTwqNfsQ)
 - [Light of the Seven](https://www.youtube.com/watch?v=OCqMDeD6Fmc)
-- [Combo](https://www.youtube.com/watch?v=Obfw2O6vNXE)
+- [Anime OP Combo](https://www.youtube.com/watch?v=Obfw2O6vNXE)
+- [AOA OP Combo](https://www.youtube.com/watch?v=gyk54CsyFoA)
+
