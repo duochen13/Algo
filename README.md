@@ -135,6 +135,7 @@ If it's how random.shuffle() implemented
 - [KMP TBR](./Algos/KMP/Solution.java)
 - [BinarySearch](./Algos/BinarySearch)
 - [MergeSort](./Algos/MergeSort)
+- [CountSort](./Algos/CountSort)
 
 ### Divide & Conquer
 - [Closest points](./DivideAndConquer/ClosestPoints/Solution.py)
@@ -220,6 +221,7 @@ Trhoughput & Latency
 - [Sik-K](https://www.youtube.com/watch?v=36HvpOE4opQ)
 - [Guren no Yumiya](https://www.youtube.com/watch?v=MIUQGbA8B4k)
 - [Never Grow Up](https://www.youtube.com/watch?v=qw7oS1FBHyI)
+- [Baiyueguangzhushazhi](https://www.youtube.com/watch?v=ZyY5YfQ7A_s)
 - [Ignite](https://www.youtube.com/watch?v=sCwB3qKS_SQ)
 - [Angel](https://www.youtube.com/watch?v=fOUfYU2NEJU)
 - [Sanbonezakura](https://www.youtube.com/watch?v=LxkEr-3GCGU)
