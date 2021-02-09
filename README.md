@@ -100,6 +100,7 @@ sorted or not, res[:] or res
 
 ### DP
 - [RodCutting](./DP/RodCutting/Solution.py)
+- [CoinChange](./DP/coinChange/Solution.py)
 - [LongestPalindromicSubstring](./DP/longestPalindromicSubstr)
 - [LongestContinuousCommonSubArray](./DP/longestCommonSubArray)
 ```
