@@ -99,6 +99,7 @@ sorted or not, res[:] or res
 ```
 
 ### DP
+- [RodCutting](./DP/RodCutting/Solution.py)
 - [LongestPalindromicSubstring](./DP/longestPalindromicSubstr)
 - [LongestContinuousCommonSubArray](./DP/longestCommonSubArray)
 ```
