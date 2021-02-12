@@ -133,11 +133,12 @@ If it's how random.shuffle() implemented
 ```
 - [Floyd's Cycle Detection](./Algos/FloydCycleDetection/Solution.py)
 - [Garbage Collection in Java](./Algos/GarbageCollection/Solution.java)
-- [QuickSort](./Algos/QuickSort/Solution.java)
+- [QuickSort](./Algos/QuickSort/Solution.py)
 - [KMP TBR](./Algos/KMP/Solution.java)
 - [BinarySearch](./Algos/BinarySearch)
 - [MergeSort](./Algos/MergeSort)
 - [CountSort](./Algos/CountSort)
+- [FuzzySort](./Algos/FuzzySort)
 
 ### Divide & Conquer
 - [Closest points](./DivideAndConquer/ClosestPoints/Solution.py)
