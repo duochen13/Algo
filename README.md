@@ -226,7 +226,7 @@ Trhoughput & Latency
 - [Sik-K](https://www.youtube.com/watch?v=36HvpOE4opQ)
 - [Guren no Yumiya](https://www.youtube.com/watch?v=MIUQGbA8B4k)
 - [Never Grow Up](https://www.youtube.com/watch?v=qw7oS1FBHyI)
-- [Baiyueguangzhushazhi](https://www.youtube.com/watch?v=ZyY5YfQ7A_s)
+- [Hikaru Nara-Shigatsu wa Kimi no Uso OP](https://www.youtube.com/watch?v=zsVAbS8xmaU)
 - [Ignite](https://www.youtube.com/watch?v=sCwB3qKS_SQ)
 - [Angel](https://www.youtube.com/watch?v=fOUfYU2NEJU)
 - [Sanbonezakura](https://www.youtube.com/watch?v=LxkEr-3GCGU)
