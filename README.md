@@ -157,6 +157,9 @@ If it's how random.shuffle() implemented
 - [Templates](./OOD/Templates/play.cpp)
 - [Functor](./OOD/Functor/test.cpp)
 
+### Go
+- [Basics](./Go/Basics)
+
 ### System Design
 - [Tiny URL](./SystemDesign/TinyURL)
 
