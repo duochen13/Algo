@@ -43,12 +43,22 @@ def LCSBottomUp(a, b):
     return memo[m][n]
     
 
-print(LCSRecursion(a="abcfegikz",b="bacefegk"))
-assert LCSBottomUp(a="abcfegikz",b="bacefegk") == 6
+# print(LCSRecursion(a="abcfegikz",b="bacefegk"))
+# assert LCSBottomUp(a="abcfegikz",b="bacefegk") == 6
 
 
+def LCCS(nums1, nums2):
+    m, n = len(nums1), len(nums2)
+    memo = [[0 for _ in range(n + 1)] for _ in range(m + 1)]
+    res = 0
+    for i in range(m):
+        for j in range(n):
+            if nums1[i] == nums2[j]:
+                memo[i + 1][j + 1] = 1 + memo[i][j]
+                res = max(res, memo[i + 1][j + 1])
+    return res
 
-print(res)
+assert LCCS(nums1=[1,2,8,2,1], nums2=[8,2,1,4,7]) == 3
 
 """
 a b c f e g j k z
