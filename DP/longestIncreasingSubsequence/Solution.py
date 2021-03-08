@@ -23,7 +23,8 @@ res: [10,22,33,50,60,80]
 import collections
 
 
-def LIS(nums):
+# O(n^2), or O(nlogn) if sort
+def LISOnSingleList(nums):
     N = len(nums)
     dp = [1 for _ in range(N)]
     for i in range(N):
@@ -34,6 +35,7 @@ def LIS(nums):
     return dp[-1]
 
 
-assert LIS(nums=[4,2,3,7,1,10]) == 4
-assert LIS(nums=[10,22,9,33,21,50,41,60,80]) == 6
+assert LISOnSingleList(nums=[4,2,3,7,1,10]) == 4
+assert LISOnSingleList(nums=[10,22,9,33,21,50,41,60,80]) == 6
+
 
