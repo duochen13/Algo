@@ -22,21 +22,18 @@ res: [10,22,33,50,60,80]
 """
 import collections
 
-def longestIncreasingSubsequence(nums):
-    dp = [1 for _ in range(len(nums) + 1)]
-    memo = [[num] for num in nums]
-    res = 1
-    for j in range(len(nums)):
-        for i in range(j):
-            if nums[i] < nums[j]:
-                # dp[j] = max(dp[j], dp[i] + 1)
-                if dp[i] + 1 > dp[j]:
-                    memo[j] = memo[i] + [nums[j]]
-                    dp[j] = dp[i] + 1
-                res = max(res, dp[j])
-    # print(memo)
-    return res
+
+def LIS(nums):
+    N = len(nums)
+    dp = [1 for _ in range(N)]
+    for i in range(N):
+        for j in range(i):
+            if nums[i] > nums[j]:
+                dp[i] = max(dp[i], 1 + dp[j])
+
+    return dp[-1]
 
 
-res = longestIncreasingSubsequence(nums=[10,22,9,33,21,50,41,60,80])
-# print(res)
+assert LIS(nums=[4,2,3,7,1,10]) == 4
+assert LIS(nums=[10,22,9,33,21,50,41,60,80]) == 6
+
