@@ -56,7 +56,6 @@ BST -> BT -> N-ary Tree
 ```
 
 ### DFS
-- [BinaryTreePath 257](./Tree/BinaryTreePath)
 - [DividedToGroups](./DFS/DividedToGroups)
 - [Number of Distinct Islands 694](./DFS/EqualMatrix)
 - [Maximal Square 221](./DFS/MaximalSquare/Solution.py)
@@ -150,16 +149,13 @@ If it's how random.shuffle() implemented
 ### OOD
 - [Queen's Gambit'](./OOD/QueensGambit/Solution.py)
 - [LRU Cache](./OOD/LRUCache/Solution.java)
-- [Random Number Generator](./Algos/Fisher-Yates/Solution.py)
+- [Random Number Generator](./Algos/Fisher-Yates)
 - [Median from Data Stream 295](./OOD/MedianFromDataStream)
 - [Top K Frequent from Data Stream](./OOD/TopKDataStream/Solution.py)
 - [ParkingLot](./OOD/ParkingLot/Solution.java)
 - [Java Interface & Abstract class](./OOD/JavaOOD/Solution.java)
 - [Templates](./OOD/Templates/play.cpp)
 - [Functor](./OOD/Functor/test.cpp)
-
-### Go
-- [Basics](./Go/Basics)
 
 ### System Design
 - [Tiny URL](./SystemDesign/TinyURL)
@@ -221,6 +217,7 @@ Trhoughput & Latency
 
 ### BGM
 - [Marasy Playlist](https://www.youtube.com/watch?v=AHv0vP6jQvg)
+- [You Lie in April](https://www.youtube.com/watch?v=nQ8uAWxhlU0)
 - [Shining/Snow-Rain](https://www.youtube.com/watch?v=dBem3WfTnXc)
 - [Lemon](https://www.youtube.com/watch?v=spfLnDJPDF4)
 - [からくりピエロ](https://www.youtube.com/watch?v=l82y3WIaqW0&list=RDMMl82y3WIaqW0&start_radio=1)
