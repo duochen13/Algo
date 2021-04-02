@@ -163,54 +163,34 @@ If it's how random.shuffle() implemented
 ### Security
 - [Devil Pointer](./HackSpice)
 
-### Notes
+### Vim 
+Key Bindings | Pattern
 ```
-Scanner sc = new Scanner(System.in); int n = sc.nextInt();
-ArrayList<T>() -> T[]: arrayList.toArray();
-String s -> s.toCharArray() || s.charAt(index)
-memo.put(c, memo.getOrDefault(c, 0) + 1);
-memo.put('c') instead of memo.put("(");
-counter[x - 'a]++;
-hm.forEach((k, v) -> System.out.println(k + ": " + (v + 10)));
-return new Array(memo.values());  memo.values(): collections list
-return new Pair(1,2);
-dfs avoid infinity, when pass list by reference, need to create new one
-arraylist return val, or it would be empty
-Arrays.sort(nums, (a,b) -> (a - b));
-Arrays.sort(intervals, new Comparator<int[]>() {
-    public int compare(int[] a, int[] b) {
-        return a[0] - b[0];
-    }
-});
-new LinkedList<>(Arrays.asList(arr));
-convert Set<List<Integer>> res = new HashSet<List<>>() to ArrayList<List<Integer>>(res);
-Integer -> Stirng: Integer.toString(2);
-String -Integer: Integer.parseInt(cnt)
-new Pair<TreeNode, String>, getValue(), getKey()
-Deque<Integer> dq = new LinkedList<Integer>(), [add get peek poll][First Last]
-PriorityQueue<Integer> pq = new PriorityQueue<>(); add, poll, peek
-List cancatenation, list.addAll(list.subList(start, end));
-String.indexOf("prefix");
-hashMap.keySet()
-aString.split("\\."), "." means any character in regular expression
-Arrays.copyOfRange(nums, i, j)
-Character.isDigit('1')
+Jump based on relativenumber | <number><direction>
+Visual mode: 5j(jump down 5 lines), 3i(jump up 3 lines), very helpful when enable 'set relativenumber', (no ruler plz)
+
+Execute program within editor | <shift> + ':' + '!' + <command>
+Sometimes I need to :wq and run some program and go back to editor, but !<command> helps run program within vim. If <command> is empty, :! will simply run last command
+
+Comment / Uncomment multiple lines
+<control> + v: enter visual mode, <esc> + v may not work, it will select blocks of lines instead of first column in the next step
+Select the lines that you want to comment / uncomment
+Comment: <shift> + i: Enter the insertion mode, type the comment sign: #, // etc. Then <ESC>
+Uncomment: d
+
+Navigate between file structure and file content
+vim . in current directory
+:NERDTree
+<control> + w(double click) to navigate between windows 
 ```
 
-### TBR
-- [TEST README]
+Userful Plugins:
 ```
-Database: index in relational / non-relational database, how to handle concurrency, frequency of read and write
-Denormalization(left): fewer joins, but hard to update
-Courses            Teachers       |  Courses   Teachers
-cid *tid (tname)   tid tname      |  cid *tid   tid tname
-database sharding, replication, parition
-HashMap (not thread-safe), HashTable(thread-safe, disallow null key-value pair) ConcurrentHashMap(thread-safe, but lock every HashEntry instead of the whole key value pairs), 只锁被不同thread touch的entry，如果不同thread对不同的entry进行操作
-Heap (store objs, new String()), Stack (store programs)
-Amortized
-Load Balance
-Trhoughput & Latency
-
+gmarik/Vundle.vim: Best package manager for lazy people(maybe?)
+preservim/nerdtree: File structure and menu bar
+Valloric/YouCompleteMe: Finally works in macos 10.14 
+zxqfl/tabnine-vim: Neural Network + YouCompleteMe, but slows vim down
+morhetz/gruvbox: Best color scheme for py i guess? not suitable for cpp though
 ```
 
 
