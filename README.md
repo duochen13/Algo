@@ -197,6 +197,7 @@ morhetz/gruvbox: Best color scheme for py i guess? not suitable for cpp though
 
 ### BGM
 - [Marasy Playlist](https://www.youtube.com/watch?v=AHv0vP6jQvg)
+- [Gurenge Animenzzz] (https://www.youtube.com/watch?v=NQMmZ4Psb7w)
 - [You Lie in April](https://www.youtube.com/watch?v=nQ8uAWxhlU0)
 - [Shining/Snow-Rain](https://www.youtube.com/watch?v=dBem3WfTnXc)
 - [Lemon](https://www.youtube.com/watch?v=spfLnDJPDF4)
