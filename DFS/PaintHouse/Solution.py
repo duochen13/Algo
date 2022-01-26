@@ -1,0 +1,98 @@
+"""
+256. Paint House
+There is a row of n houses, where each house can be painted one of three colors: red, blue, or green. The cost of painting each house with a certain color is different. You have to paint all the houses such that no two adjacent houses have the same color.
+
+The cost of painting each house with a certain color is represented by an n x 3 cost matrix costs.
+
+For example, costs[0][0] is the cost of painting house 0 with the color red; costs[1][2] is the cost of painting house 1 with color green, and so on...
+Return the minimum cost to paint all houses.
+"""
+
+
+"""
+Idea:
+constraint: 
+    no two adjacent houses have the same color -> keep track of color of the last house
+goal:
+    find the min cost -> keep track of current cost 
+
+      curCost=17, color=R
+           /       \ 
+       17+16, G     17+5, B
+        / \
+                
+"""
+from collections import defaultdict
+
+
+def dfs(costs, preCost, lastColor, curHouse):
+    if curHouse >= len(costs):
+        return preCost
+    tmpCost = float('inf')
+    # dfs
+    for color in range(3):
+        # no two adjacent houses have the same color
+        if color == lastColor:
+            continue
+        # paint the next house
+        tmpCost = min(tmpCost, dfs(costs, preCost + costs[curHouse][color], color, curHouse + 1))
+    return tmpCost
+
+
+def minCost(costs):
+    m, n = len(costs), len(costs[0])
+
+    minCost = float('inf')
+    for color in range(n):
+        minCost = min(minCost, dfs(costs, 0, color, 0))
+    return minCost
+
+
+# test
+assert minCost([[17,2,17],[16,16,5],[14,3,19]]) == 10
+assert minCost([[7,6,2]]) == 2
+
+
+# time complexity: O(2^N)
+# space complexity: O(n)
+
+
+"""
+optimization: dfs with memo
+"""
+
+def dfsOptimize(costs, preCost, lastColor, curHouse, memo):
+    if curHouse >= len(costs):
+        return preCost
+    # look up memo
+    if tuple([lastColor, curHouse]) in memo:
+        return memo[tuple([lastColor, curHouse])]
+    tmpCost = float('inf')
+    # dfs
+    for color in range(3):
+        # no two adjacent houses have the same color
+        if color == lastColor:
+            continue
+        # paint the next house
+        tmpCost = min(tmpCost, dfsOptimize(costs, preCost + costs[curHouse][color], color, curHouse + 1, memo))
+    # store new val in memo
+    memo[tuple([lastColor, curHouse])] = tmpCost
+    return tmpCost
+
+
+def minCostOptimize(costs):
+    m, n = len(costs), len(costs[0])
+    memo = defaultdict(int)
+    minCost = float('inf')
+    for color in range(n):
+        minCost = min(minCost, dfsOptimize(costs, 0, color, 0, memo))
+    return minCost
+
+
+# test
+assert minCostOptimize([[17,2,17],[16,16,5],[14,3,19]]) == 10
+assert minCostOptimize([[7,6,2]]) == 2
+
+
+# time complexity: O(N)
+# space complexity: O(N)
